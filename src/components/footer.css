@@ -1,0 +1,69 @@
+footer{
+    height: 220px;
+    display: grid;
+    align-self: end; /* The trick */
+}
+
+.LeeMiteraniFooter{
+    font-family: Roboto;
+    color: #ffffff;
+    margin-left: 80px;
+    margin-top:60px;
+    padding:0
+
+}
+.contactFooterContact{
+    color: #ffffff;
+    font-family: Roboto;
+    margin-top:69px;
+    font-weight: 500;
+}
+.contactEmailFooter{
+    font-family: Poppins;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+
+}
+
+.contactFooterWork{
+    color: #ffffff;
+    font-weight: 500;
+    font-family: Roboto;
+    padding:0
+}
+a:hover {
+    color: white;
+    text-decoration: none; /* no underline */
+  }
+
+
+
+  .custom-underline,
+.custom-underline:hover,
+.custom-underline:focus,
+.custom-underline:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+.custom-underline::after {
+  content: "";
+  position: absolute;
+  
+}
+.pointer {cursor: pointer;}
+  .box-e .custom-underline::after {
+    top: 65%;
+    height: 1px;
+    width: 0%;
+    left: 0%;
+    background-color: white;
+      transition: 0.5s ease all .3s;
+  }
+  
+  .box-e:hover .custom-underline::after {
+    width: 61%;
+      transition: 0.3s ease all;
+  }
