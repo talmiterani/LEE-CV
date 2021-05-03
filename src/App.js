@@ -18,11 +18,10 @@ class App extends Component{
       <Router>
         <Navigation/>
           <Switch>
-          <Route exact path="/login" component={Login}/>
-              <Route exact path="/" component={Homepage}/>
-              
-              <Route component={Default}/>
-            </Switch>
+            <Route exact path="/login" component={Login}/>
+            <Route exact path="/" component={Homepage}/>
+            <Route component={Default}/>
+          </Switch>
         <Footer/>
       </Router>
 

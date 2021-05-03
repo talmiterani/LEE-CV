@@ -1,17 +1,9 @@
-import React, {Link,useState,useEffect} from 'react';
-import {Nav,Navbar, Container } from "react-bootstrap"
+import React, {useEffect} from 'react';
 import "./navigation.css"; 
 import SideMenu from './sideMenu/SideMenu';
 
-
 const Navigation = () => {
-    const [linkWorkBoolean, setLinkWorkBoolean] = useState()
-    const [linkAcademicBoolean, setLinkAcademicBoolean] = useState()
-    const [linkAboutBoolean, setLinkAboutkBoolean] = useState()
-    const [linkContactBoolean, setLinkContactBoolean] = useState()
-
     useEffect (()=>{
-        console.log(window.location.href.split('/')[3])
         if(window.location.href.split('/')[3]==='work'){
             document.getElementById('work').setAttribute("class","navlinkClicked btn")
         }
@@ -48,8 +40,7 @@ const Navigation = () => {
                     <a id='academic' href='/academic' className="navlinks btn " style={{marginRight: '10px '}} >Academic</a>
                     <a id='about' href='/about' className="navlinks btn " style={{marginRight: '10px '}} >About</a>
                     <a id='contact' href='/contact' className="navlinks btn " style={{marginRight: '10px '}}>Contact</a>
-
-                    <button  className="btn btn-primary-outline rounded-pill resumeBtn">Resume</button>
+                    <a href="/LeeMiteraniResume.pdf" download className="btn btn-primary-outline rounded-pill resumeBtn">Resume</a>
                 </div>
                 
         </nav>

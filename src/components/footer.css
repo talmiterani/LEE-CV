@@ -67,3 +67,31 @@ a:hover {
     width: 61%;
       transition: 0.3s ease all;
   }
+
+
+
+  
+  @media (max-width: 880px) {
+
+	.navlinks {
+		display: none;
+	}
+    .resumeBtn {
+		display: none;
+	}
+    .LeeMiteraniNav {
+        display: none;
+      }
+    .sideMenu{
+        display: inline;
+        color: white;
+
+    }
+    .LeeMiteraniNavSideMenu {
+        font-family: Roboto;
+        color: #ffffff;
+        padding-left: 25px;
+        margin: 0;
+      }
+    
+}
