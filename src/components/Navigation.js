@@ -4,6 +4,7 @@ import SideMenu from './sideMenu/SideMenu';
 
 const Navigation = () => {
     useEffect (()=>{
+        console.log((window.location.href.split('/')[3]))
         if(window.location.href.split('/')[3]==='work'){
             document.getElementById('work').setAttribute("class","navlinkClicked btn")
         }
@@ -20,13 +21,13 @@ const Navigation = () => {
     })
     return (
         <div>
-            <div className="container sideMenu">
-                <div className="row">
-                    <div className=" d-flex justify-content-start">
+            <div className=" sideMenu d-flex row">
+                    <div className="col-9">
                         <h4 className="LeeMiteraniNavSideMenu">Lee Miterani</h4>
+                    </div>
+                    <div className="col-2">
                         <div className="sideMenu"><SideMenu></SideMenu></div>
                     </div>
-                </div>
             </div>
 
 

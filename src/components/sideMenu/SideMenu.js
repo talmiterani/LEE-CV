@@ -25,7 +25,7 @@ class SideMenu extends React.Component {
       backdrop = <BackDrop click={this.backDropClickHandler} />;
     }
     return (
-      <div style={{ height: "100%" }}>
+      <div>
         <Toolbar drawerToggleClickHandler={this.drawerToggleClickHandler} />
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}

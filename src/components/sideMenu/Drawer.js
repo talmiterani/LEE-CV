@@ -1,61 +1,49 @@
-import React, { useState, useEffect } from "react"
+import React, {  useEffect } from "react"
 import "./drawerStyle.css";
 
 
 export default function SideDrawer(props) {
- 
-  const [currentUser, setCurrentUser] = useState();
+  useEffect (()=>{
+    if(window.location.href.split('/')[3]==='work'){
+        document.getElementById('workD').setAttribute("style", "color:#0075ff; padding:0")
+    }
+    else if(window.location.href.split('/')[3]==='academic'){
+        document.getElementById('academicD').setAttribute("style", "color:#0075ff; padding:0")
+    }
+    else if(window.location.href.split('/')[3]==='about'){
+        document.getElementById('aboutD').setAttribute("style", "color:#0075ff; padding:0")
+    }
+    else if(window.location.href.split('/')[3]==='contact'){
+        document.getElementById('contactD').setAttribute("style", "color:#0075ff; padding:0")
+    }
+
+})
 
   let drawerClasses = ["side-drawer"];
-  let callRef = React.createRef();
 
   if (props.show) {
     drawerClasses = ["side-drawer", "open"];
   }
 
-  useEffect(() => {
-      if(! localStorage.getItem("username"))
-        setCurrentUser("visitor")
-      else
-      setCurrentUser( localStorage.getItem("username").slice(1, localStorage.getItem("username").length-1))
 
-  }, [])
-
-    function logout() {
-      localStorage.removeItem('username');
-      localStorage.removeItem('token');
-      localStorage.removeItem('usernameID');
-      setCurrentUser("visitor")
-    }
-    function userOptionsShow(){
-      if(currentUser !== 'visitor')
-        return (<li><a href="/" onClick={() => {logout() }}>Logout</a></li>)
-      else
-        return (<li><a href="/login">Login</a> <a style={{marginLeft:"60%"}} href="/register">Register</a> </li>)
-    }  
-    
   return (
     <nav className={drawerClasses.join(" ")}>
 
       <ul className="sideBarMenu"> 
-          
-          {/* <li>
-            <h3>Welcome&nbsp; {currentUser}</h3>
-          </li>
-          
-            {userOptionsShow()} */}
-          
           <li>
-            <a href="/">Home</a>       
+            <a id='workD' href="/work">Work</a>       
           </li>
           <li>
-            <a href="/">Home</a>       
+            <a id='academicD' href="/academic">Academic</a>       
           </li>
           <li>
-            <a href="/">Home</a>       
+            <a id='aboutD' href="/about">About</a>       
           </li>
           <li>
-            <a href="/">Home</a>       
+            <a  id='contactD' href="/contact">Contact</a>       
+          </li>
+          <li>
+            <a href="/LeeMiteraniResume.pdf">Resume</a>       
           </li>
       </ul>
     </nav>

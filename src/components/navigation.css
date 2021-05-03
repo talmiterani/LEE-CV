@@ -9,8 +9,8 @@ nav{
 .LeeMiteraniNav {
     font-family: Roboto;
     color: #ffffff;
-    padding-left: 80px;
-    margin: 0;
+    margin-left: 80px;
+    margin-bottom: 0;
   }
 .navlinks{
   font-family: Roboto;
@@ -48,7 +48,9 @@ nav{
 .sideMenu{
     display: none;
 }
-
+.LeeMiteraniNavSideMenu {
+  display: none;
+}
 @media (max-width: 880px) {
 
 	.navlinks {
@@ -57,19 +59,24 @@ nav{
     .resumeBtn {
 		display: none;
 	}
+  .navlinkClicked{
+    display: none;
+
+  }
     .LeeMiteraniNav {
         display: none;
       }
     .sideMenu{
         display: inline;
         color: white;
+        margin-top: 20px;
 
     }
     .LeeMiteraniNavSideMenu {
+      display: inline;
         font-family: Roboto;
         color: #ffffff;
-        padding-left: 25px;
-        margin: 0;
+        padding-left: 60px;
       }
     
 }
