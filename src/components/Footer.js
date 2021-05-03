@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer>
             <div>
-                <div className="row" > 
+                <div className="row p-0 m-0" > 
                     <h4 id="leeMiterani" className="LeeMiteraniFooter col-md-2 smallScreen bigScreen">Lee Miterani</h4>
                     <div className="col-md-3 smallScreen">
                         <p className="contactFooterContact bigScreen">Contact</p>
@@ -28,13 +28,15 @@ const Footer = () => {
                     </div>
                     
                     <div className="col-md-1 smallScreen bigScreen"  >
-                        <a  className="contactFooterWork " href="https://www.linkedin.com/in/lee-miterani/">Linkedin 
+                        <p id="social" className="contactFooterWork" >Social</p>
+                        <br id="social"></br>
+                        <a  className="contactFooterWork " href="https://www.linkedin.com/in/lee-miterani/" target="_blank">Linkedin 
                         {/* <a class="btn btn-outline-light btn-floating m-1 rounded-pill text-center text-white" href="#!" role="button"><i class="fab fa-facebook-f"></i></a> */}
                         </a><br/>
                         <div style={{paddingTop:'10px'}}></div>
-                        <a className="contactFooterWork "href="https://www.instagram.com/lee.miterani/" >Instagram</a><br/>
+                        <a className="contactFooterWork "href="https://www.instagram.com/lee.miterani/" target="_blank">Instagram</a><br/>
                         <div style={{paddingTop:'10px'}}></div>
-                        <a className="contactFooterWork "href="https://www.facebook.com/lee.miterani">Facebook</a><br/>
+                        <a className="contactFooterWork "href="https://www.facebook.com/lee.miterani" target="_blank">Facebook</a><br/>
                     </div>
                 </div>
             </div>

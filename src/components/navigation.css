@@ -1,10 +1,8 @@
 .navItem{
     color: white;
-    
 }
 nav{
     height: 80px;
-
 }
 .LeeMiteraniNav {
     font-family: Roboto;
@@ -37,7 +35,6 @@ nav{
     color: white;
     border-width:0px;
     font-weight: 500;
-    
 }  
 .resumeBtn:hover{
     background-color: #75b5ff;
@@ -63,20 +60,20 @@ nav{
     display: none;
 
   }
-    .LeeMiteraniNav {
+  .LeeMiteraniNav {
         display: none;
-      }
-    .sideMenu{
+  }
+  .sideMenu{
         display: inline;
         color: white;
         margin-top: 20px;
-
-    }
-    .LeeMiteraniNavSideMenu {
+  }
+  .LeeMiteraniNavSideMenu {
       display: inline;
         font-family: Roboto;
         color: #ffffff;
-        padding-left: 60px;
-      }
+        padding-left: 20px;
+        font-size: 16px;
+      } 
     
 }

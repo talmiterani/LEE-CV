@@ -21,11 +21,11 @@ const Navigation = () => {
     })
     return (
         <div>
-            <div className=" sideMenu d-flex row">
-                    <div className="col-9">
+            <div className=" sideMenu d-flex row align-items-center ">
+                    <div className="col-10 pr-0">
                         <h4 className="LeeMiteraniNavSideMenu">Lee Miterani</h4>
                     </div>
-                    <div className="col-2">
+                    <div className="col-1">
                         <div className="sideMenu"><SideMenu></SideMenu></div>
                     </div>
             </div>

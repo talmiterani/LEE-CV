@@ -17,10 +17,12 @@ footer{
     color: #ffffff;
     font-family: Roboto;
     font-weight: 500;
+    font-size: 16px;
+
 }
 .contactEmailFooter{
     font-family: Poppins;
-    font-size: 14px;
+    font-size: 16px;
     color: white;
     font-weight: 400;
     letter-spacing: 0.2px;
@@ -40,7 +42,7 @@ a:hover {
 
 
 
-  .custom-underline,
+.custom-underline,
 .custom-underline:hover,
 .custom-underline:focus,
 .custom-underline:active {
@@ -49,7 +51,6 @@ a:hover {
 }
 
 .custom-underline::after {
-  content: "";
   position: absolute;
   
 }
@@ -62,23 +63,25 @@ a:hover {
     width: 0%;
     left: 15px;
     background-color: white;
-      transition: 0.5s ease all .3s;
+    transition: 0.5s ease all .3s;
   }
   
-  .box-e:hover .custom-underline::after {
+.box-e:hover .custom-underline::after {
     width: 175px;
-      transition: 0.3s ease all;
+    transition: 0.3s ease all;
   }
-
+  #social{
+    display: none;
+}
 
 
   
   @media (max-width: 768px) {
-
 	.smallScreen {
         margin-left: 20px;
         margin-top: 0;
         padding: 0;
+
     }
     .box-e .custom-underline::after {
         top: 135px;
@@ -93,5 +96,23 @@ a:hover {
     }
     #navigationLinks{
         display:none
+    }
+    #social{
+        display: inline-block;
+        margin-top: 25px;
+    }
+    .contactFooterWork{
+        color: #ffffff;
+        /* font-weight: 500; */
+        font-family: Poppins;
+        padding:0
+    }
+    .LeeMiteraniFooter{
+        font-family: Roboto;
+        font-size: 16px;
+        color: #ffffff;
+        margin-left: 40px;
+        padding:0
+    
     }
 }

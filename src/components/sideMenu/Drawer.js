@@ -43,7 +43,7 @@ export default function SideDrawer(props) {
             <a  id='contactD' href="/contact">Contact</a>       
           </li>
           <li>
-            <a href="/LeeMiteraniResume.pdf">Resume</a>       
+            <a href="/LeeMiteraniResume.pdf" download>Resume</a>       
           </li>
       </ul>
     </nav>

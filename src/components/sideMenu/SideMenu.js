@@ -25,11 +25,11 @@ class SideMenu extends React.Component {
       backdrop = <BackDrop click={this.backDropClickHandler} />;
     }
     return (
-      <div>
+      <>
         <Toolbar drawerToggleClickHandler={this.drawerToggleClickHandler} />
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
-      </div>
+      </>
     );
   }
 }

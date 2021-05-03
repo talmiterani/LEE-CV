@@ -1,6 +1,6 @@
 .toggle-button {
-    height: 24px;
-    width: 30px;
+    height: 18px;
+    width: 18px;
     background: transparent;
     border: none;
     cursor: pointer;
@@ -9,10 +9,7 @@
     justify-content: space-around;
     padding: 0;
     box-sizing: border-box;
-    margin-left: 100%;
   }
- 
-  
   .toggle-button:focus {
     outline: none;
   }
