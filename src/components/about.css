@@ -1,0 +1,18 @@
+.intreductionP{
+    font-family: Lora;
+    font-size: 24px;
+    color: white;
+    width: 85%;
+}
+.titleInAboutPage{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.textInAboutPage{
+    font-family: Poppins;
+    font-size: 14px;
+    color: white;
+
+}

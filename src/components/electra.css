@@ -1,0 +1,89 @@
+.electraHeaderTop {
+    font-family: Lora;
+    font-size: 48px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.electraHeaderBottom{
+    font-family: Lora;
+    font-size: 48px;
+    color: white;
+}
+.role {
+    margin-top: 62px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    color:white;
+} 
+.User-Experience-Interface {
+    flex-grow: 0;
+    margin-top: 28px;
+    font-family: Roboto;
+    font-size: 16px;
+    color: white;
+}
+.project-headline{
+    margin-top: 150px;
+    font-family: Lora;
+    font-size: 34px;
+    font-weight: normal;
+    color: white;
+  }
+  .Challenge {
+    margin-top: 150px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+  }
+  .Competitive-Analysis {
+    margin-top: 150px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+  }
+  .Target-Audience {
+    margin-top: 150px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+  }
+  .Affiliates-in-verticals {
+    margin-top: 10px;
+    font-family: Lora;
+    font-size: 34px;
+    color: white;
+  }
+  .Style-Guide {
+    margin-top: 150px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+  }
+  .what-next-title {
+    margin-top:70px;
+    font-family: Lora;
+    font-size: 48px;
+    color: white;
+  }
+  .Gaming-Hub {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+  }
+  .Landing-pages {
+    font-family: Roboto;
+    font-size: 16px;
+    color: white;
+  }
+  .Projects {
+    font-family: Roboto;
+    font-size: 16px;
+    color: white;
+  }

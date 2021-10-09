@@ -1,0 +1,54 @@
+.contact{
+    font-family: Lora;
+    font-size: 48px;
+    color:white;
+    margin-top: 60px;
+    margin-right: 460px;
+    margin-bottom: 60px;
+}
+#name, #email{
+    width: 280px;
+    height: 48px;
+    border-radius: 2px;
+}
+.labelName, .labelEmail{
+    width: 54px;
+    height: 23px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+#message{
+    width: 620px;
+    height: 160px;
+    resize: none;
+}
+.labelMessage{
+    width: 54px;
+    height: 23px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.contactSubmitBtn{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 2px;
+    background-color: #0075ff;
+    width: 140px;
+    height: 36px;
+    margin-top: 20px;
+    margin-right: 480px;
+    }
+
+.contactSubmitBtn:hover{
+    background-color: #75b5ff;
+    border-width:0px;
+    color: white;
+}
+    

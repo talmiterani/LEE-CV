@@ -1,0 +1,116 @@
+.headlineAcademic{
+    font-family: Lora;
+    font-size: 48px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 229px;
+    width: 870px;
+    height: 122px;
+}
+.Tags1 {
+    width: 99px;
+    height: 32px;
+    border-radius: 30px;
+    border:none;
+    background-color: #27ae60;
+    margin-top: 20px;
+    z-index: 0;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    margin-right:730px;
+  }
+  .Tags2 {
+    width: 88px;
+    height: 32px;
+    border-radius: 30px;
+    border:none;
+    background-color: #56ccf2;
+    margin-top: 20px;
+    z-index: 0;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    margin-right:533px;
+  }
+  .Tags3 {
+    width: 114px;
+    height: 32px;
+    border-radius: 30px;
+    border:none;
+    background-color: #eb5757;
+    margin-top: 20px;
+    z-index: 0;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    margin-right:320px;
+  }
+  .Tags4 {
+    width: 92px;
+    height: 32px;
+    border-radius: 30px;
+    border:none;
+    margin-top: 20px;
+    z-index: 0;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    margin-right:105px;
+    background-color: #ff5ee5;
+
+  }
+
+  .textHeaderDis{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 137px;
+  }
+  .textDis{
+    font-family: Poppins;
+    font-size: 14px;
+    color: white;
+    margin-left: 137px;
+    margin-top: 5px;
+  }
+
+
+
+
+  #cf span img {
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    border-radius: 10px;
+    
+  }
+  
+  #cf img.top:hover {
+    opacity:0;
+  }
+
+  .backGroundColorChangePink{
+    background:  #ff5ee5;
+    transition: background 2s;
+  }
+  .backGroundColorChangeBack{
+    background: black;
+    transition: background 2s;
+
+  }
+  .backGroundColorChangeBlue{
+    background:  #2d34db;
+    transition: background 2s;
+  }
+  .backGroundColorChangeRed{
+    background:  #eb5757;
+    transition: background 2s;
+  }

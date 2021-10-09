@@ -1,0 +1,245 @@
+
+.headlineAcademic{
+    font-family: Lora;
+    font-size: 48px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 229px;
+    width: 831px;
+    height: 122px;
+}
+.webDesign {
+    width: 99px;
+    height: 32px;
+    border-radius: 30px;
+    border:none;
+    background-color: #27ae60;
+    margin-top: 20px;
+    z-index: 0;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    margin-right:730px;
+  }
+  .marketing {
+    width: 88px;
+    height: 32px;
+    border-radius: 30px;
+    border:none;
+    background-color: #56ccf2;
+    margin-top: 20px;
+    z-index: 0;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    margin-right:533px;
+  }
+  .userExperience {
+    width: 126px;
+    height: 32px;
+    border-radius: 30px;
+    border:none;
+    background-color: #bb6bd9;
+    margin-top: 20px;
+    z-index: 0;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    margin-right:310px;
+  }
+  .branding {
+    width: 81px;
+    height: 32px;
+    border-radius: 30px;
+    border:none;
+    margin-top: 20px;
+    z-index: 0;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    margin-right:355px;
+    background-color: #f2c94c;
+
+  }
+  .userInterface{
+    width: 113px;
+    height: 32px;
+    border-radius: 30px;
+    border:none;
+    background-color: #7adb2d;
+    margin-top: 20px;
+    z-index: 0;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    margin-right:448px;
+  }
+
+  .textHeaderDis{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 137px;
+  }
+  .textDis{
+    font-family: Poppins;
+    font-size: 14px;
+    color: white;
+    margin-left: 137px;
+    margin-top: 5px;
+  }
+
+
+
+  
+  #cf img {
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    border-radius: 10px;
+    
+  }
+  
+  #cf img.top:hover {
+    opacity:0;
+  }
+
+  .backGroundColorChangeGreen{
+    background:  #27ae60;
+    transition: background 2s;
+  }
+  .backGroundColorChangeBack{
+    background: black;
+    transition: background 2s;
+
+  }
+  .backGroundColorChangePurple{
+    background:  #bb6bd9;
+    transition: background 2s;
+  }
+  .backGroundColorChangeYellow{
+    background:  #f2c94c;
+    transition: background 2s;
+  }
+
+
+
+
+
+
+
+  .animation-box {
+    /* width: 75%;
+    height: 27.5rem; */
+    margin: 0 auto;
+    /* overflow: hidden; */
+    position: relative;
+  }
+
+
+  @keyframes topFadeOut {
+    0% {
+      position: absolute;
+      top: -3rem;
+      opacity: 0;
+    }
+  
+    75% {
+      position: absolute;
+      top: 25%;
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* @keyframes bottomFadeOut {
+    0% {
+      position: absolute;
+      bottom: -5rem;
+      opacity: 0;
+    }
+  
+    75% {
+      position: absolute;
+      bottom: 25%;
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+    
+  } */
+  
+  /* @keyframes topFadeOutVertical {
+    0% {
+      position: absolute;
+      top: -3rem;
+      opacity: 0;
+    }
+  
+    75% {
+      position: absolute;
+      top: 45%;
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  } */
+  
+  /* @keyframes rightFadeInOut {
+    0% {
+      position: absolute;
+      right: -3rem;
+      opacity: 0;
+    }
+  
+    75% {
+      position: absolute;
+      right: 10rem;
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+      right: 10rem;
+    }
+  } */
+  
+  /* @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+  
+    45% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0%;
+    }
+  }
+   */
+  .first-text {
+    /* font-size: 4.4rem; */
+    /* position: absolute; */
+    /* left: 2.5rem;
+    top: 5rem; */
+    opacity: 0;
+    animation-name: topFadeOut;
+    animation-duration: 4s;
+    color: white;
+  }

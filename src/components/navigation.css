@@ -7,8 +7,6 @@ nav{
 .LeeMiteraniNav {
     font-family: Roboto;
     color: #ffffff;
-    margin-left: 80px;
-    margin-bottom: 0;
   }
 .navlinks{
   font-family: Roboto;
@@ -27,7 +25,6 @@ nav{
   color:#0075ff;
 }
 .resumeBtn{
-    margin-right: 80px;
     height: 36px;
     width:100px;
     font-size:16px;
@@ -48,6 +45,10 @@ nav{
 .LeeMiteraniNavSideMenu {
   display: none;
 }
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
 @media (max-width: 880px) {
 
 	.navlinks {
@@ -67,12 +68,12 @@ nav{
         display: inline;
         color: white;
         margin-top: 20px;
+        font-size: 16px;
   }
   .LeeMiteraniNavSideMenu {
       display: inline;
         font-family: Roboto;
         color: #ffffff;
-        padding-left: 20px;
         font-size: 16px;
       } 
     
