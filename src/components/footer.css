@@ -1,55 +1,49 @@
-footer{
-    height: 220px;
-    display: grid;
-    align-self: end; /* The trick */
+footer {
+  height: 220px;
+  display: grid;
+  align-self: end; /* The trick */
 }
-.bigScreen{
-    margin-top:69px;
+.bigScreen {
+  margin-top: 69px;
 }
-.LeeMiteraniFooter{
-    font-family: Roboto;
-    color: #ffffff;
-    margin-left: 80px;
-    padding:0
-
+.LeeMiteraniFooter {
+  font-family: Roboto;
+  color: #ffffff;
+  margin-left: 80px;
+  padding: 0;
 }
-.contactFooterContact{
-    color: #ffffff;
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 16px;
-
+.contactFooterContact {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
 }
-.contactEmailFooter{
-    font-family: Poppins;
-    font-size: 16px;
-    color: white;
-    font-weight: 400;
-    letter-spacing: 0.2px;
-
+.contactEmailFooter {
+  font-family: Roboto;
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 0.2px;
 }
 
-.contactFooterWork{
-    color: #ffffff;
-    font-weight: 500;
-    font-family: Roboto;
-    padding:0
+.contactFooterWork {
+  color: #ffffff;
+  font-weight: 500;
+  font-family: Roboto;
+  padding: 0;
 }
 a:hover {
-    color: white;
-    text-decoration: none; /* no underline */
-  }
+  color: white;
+  text-decoration: none; /* no underline */
+}
 
-
-  .custom-underline {
-    position: relative;
-    /* display: inline-block; */
-    font-size: 16px;
-    font-weight: 400;
-    /* text-align: center; */
-  }
-  
-  
+.custom-underline {
+  position: relative;
+  /* display: inline-block; */
+  font-size: 16px;
+  font-weight: 400;
+  /* text-align: center; */
+}
 
 .custom-underline,
 .custom-underline:hover,
@@ -60,65 +54,61 @@ a:hover {
 }
 
 .custom-underline::after {
-    content: "";
-    position: absolute;
-  }
+  content: "";
+  position: absolute;
+}
 .pointer {
-    cursor: pointer;
+  cursor: pointer;
 }
 /* .box-e a {line-height:115px;} */
 
 .box-e .custom-underline::after {
-    top: 25px;
-    height: 2px;
-    width: 0%;
-    left: 0;
-    background-color: white;
-      transition: 0.5s ease all .3s;
-  }
-  
-  .box-e:hover .custom-underline::after {
-    width: 100%;
-      transition: 0.3s ease all;
-  }
-  #social{
-    display: none;
+  top: 25px;
+  height: 2px;
+  width: 0%;
+  left: 0;
+  background-color: white;
+  transition: 0.5s ease all 0.3s;
 }
 
+.box-e:hover .custom-underline::after {
+  width: 100%;
+  transition: 0.3s ease all;
+}
+#social {
+  display: none;
+}
 
-   @media (max-width: 768px) {
-	.smallScreen {
-        margin-left: 20px;
-        margin-top: 0;
-        padding: 0;
+@media (max-width: 768px) {
+  .smallScreen {
+    margin-left: 20px;
+    margin-top: 0;
+    padding: 0;
+  }
 
-    }
- 
-    #leeMiterani{
-        display:none ;
-    }
-    #navigationLinks{
-        display:none
-    }
-    #social{
-        display: inline-block;
-        margin-top: 25px;
-        font-family: Roboto;
-        font-weight: 500;
-
-    }
-    .contactFooterWork{
-        color: #ffffff;
-        /* font-weight: 500; */
-        font-family: Poppins;
-        padding:0
-    }
-    .LeeMiteraniFooter{
-        font-family: Roboto;
-        font-size: 16px;
-        color: #ffffff;
-        margin-left: 40px;
-        padding:0
-    
-    }
+  #leeMiterani {
+    display: none;
+  }
+  #navigationLinks {
+    display: none;
+  }
+  #social {
+    display: inline-block;
+    margin-top: 25px;
+    font-family: Roboto;
+    font-weight: 500;
+  }
+  .contactFooterWork {
+    color: #ffffff;
+    /* font-weight: 500; */
+    font-family: Roboto;
+    padding: 0;
+  }
+  .LeeMiteraniFooter {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #ffffff;
+    margin-left: 40px;
+    padding: 0;
+  }
 }

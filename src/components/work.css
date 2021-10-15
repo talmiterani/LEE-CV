@@ -1,161 +1,155 @@
-
-.headlineAcademic{
-    font-family: Lora;
-    font-size: 48px;
-    color: white;
-    margin-top: 30px;
+.headlineAcademic {
+  font-family: Lora;
+  font-size: 48px;
+  color: white;
+  margin-top: 30px;
 }
 .webDesign {
-    width: 99px;
-    height: 32px;
-    border-radius: 30px;
-    border:none;
-    background-color: #27ae60;
-    margin-top: 20px;
-    z-index: 0;
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 500;
-    color: white;
-    margin-right:730px;
-  }
-  .marketing {
-    width: 88px;
-    height: 32px;
-    border-radius: 30px;
-    border:none;
-    background-color: #56ccf2;
-    margin-top: 20px;
-    z-index: 0;
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 500;
-    color: white;
-  }
-  .userExperience {
-    width: 126px;
-    height: 32px;
-    border-radius: 30px;
-    border:none;
-    background-color: #bb6bd9;
-    margin-top: 20px;
-    z-index: 0;
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 500;
-    color: white;
-  }
-  .branding {
-    width: 81px;
-    height: 32px;
-    border-radius: 30px;
-    border:none;
-    margin-top: 20px;
-    z-index: 0;
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 500;
-    color: white;
-    background-color: #f2c94c;
+  width: 99px;
+  height: 32px;
+  border-radius: 30px;
+  border: none;
+  background-color: #27ae60;
+  margin-top: 20px;
+  z-index: 0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  margin-right: 730px;
+}
+.marketing {
+  width: 88px;
+  height: 32px;
+  border-radius: 30px;
+  border: none;
+  background-color: #56ccf2;
+  margin-top: 20px;
+  z-index: 0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+.userExperience {
+  width: 126px;
+  height: 32px;
+  border-radius: 30px;
+  border: none;
+  background-color: #bb6bd9;
+  margin-top: 20px;
+  z-index: 0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+.branding {
+  width: 81px;
+  height: 32px;
+  border-radius: 30px;
+  border: none;
+  margin-top: 20px;
+  z-index: 0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  background-color: #f2c94c;
+}
+.userInterface {
+  width: 113px;
+  height: 32px;
+  border-radius: 30px;
+  border: none;
+  background-color: #7adb2d;
+  margin-top: 20px;
+  z-index: 0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
 
-  }
-  .userInterface{
-    width: 113px;
-    height: 32px;
-    border-radius: 30px;
-    border:none;
-    background-color: #7adb2d;
-    margin-top: 20px;
-    z-index: 0;
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 500;
-    color: white;
-  }
+.textHeaderDis {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-left: 137px;
+}
+.textDis {
+  font-family: Roboto;
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+}
 
-  .textHeaderDis{
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    color: #ffffff;
-    margin-top: 30px;
-    margin-left: 137px;
-  }
-  .textDis{
-    font-family: Roboto;
-    font-size: 14px;
-    color: white;
-    font-weight: 400;
-  }
+#cf img {
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  border-radius: 10px;
+}
 
+#cf img.top:hover {
+  opacity: 0;
+}
 
+.backGroundColorChangeGreen {
+  background: #bb66d9;
+  transition: background 2s;
+}
+.backGroundColorChangeBack {
+  background: black;
+  transition: background 2s;
+}
+.backGroundColorChangePurple {
+  background: #56ccf2;
+  transition: background 2s;
+}
+.backGroundColorChangeYellow {
+  background: #7adb2d;
+  transition: background 2s;
+}
 
-  
-  #cf img {
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
-    border-radius: 10px;
-    
-  }
-  
-  #cf img.top:hover {
-    opacity:0;
-  }
+.image-title {
+  margin-top: 30px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
 
-  .backGroundColorChangeGreen{
-    background:  #27ae60;
-    transition: background 2s;
-  }
-  .backGroundColorChangeBack{
-    background: black;
-    transition: background 2s;
-
-  }
-  .backGroundColorChangePurple{
-    background:  #bb6bd9;
-    transition: background 2s;
-  }
-  .backGroundColorChangeYellow{
-    background:  #f2c94c;
-    transition: background 2s;
-  }
-
-
-
-
-
-
-
-  .animation-box {
-    /* width: 75%;
+.animation-box {
+  /* width: 75%;
     height: 27.5rem; */
-    margin: 0 auto;
-    /* overflow: hidden; */
-    position: relative;
+  margin: 0 auto;
+  /* overflow: hidden; */
+  position: relative;
+}
+
+@keyframes topFadeOut {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
   }
 
-
-  @keyframes topFadeOut {
-    0% {
-      position: absolute;
-      top: -3rem;
-      opacity: 0;
-    }
-  
-    75% {
-      position: absolute;
-      top: 25%;
-      opacity: 1;
-    }
-  
-    100% {
-      opacity: 0;
-    }
+  75% {
+    position: absolute;
+    top: 25%;
+    opacity: 1;
   }
-  
-  /* @keyframes bottomFadeOut {
+
+  100% {
+    opacity: 0;
+  }
+}
+
+/* @keyframes bottomFadeOut {
     0% {
       position: absolute;
       bottom: -5rem;
@@ -173,8 +167,8 @@
     }
     
   } */
-  
-  /* @keyframes topFadeOutVertical {
+
+/* @keyframes topFadeOutVertical {
     0% {
       position: absolute;
       top: -3rem;
@@ -191,8 +185,8 @@
       opacity: 0;
     }
   } */
-  
-  /* @keyframes rightFadeInOut {
+
+/* @keyframes rightFadeInOut {
     0% {
       position: absolute;
       right: -3rem;
@@ -210,8 +204,8 @@
       right: 10rem;
     }
   } */
-  
-  /* @keyframes fadeInOut {
+
+/* @keyframes fadeInOut {
     0% {
       opacity: 0;
     }
@@ -225,13 +219,13 @@
     }
   }
    */
-  .first-text {
-    /* font-size: 4.4rem; */
-    /* position: absolute; */
-    /* left: 2.5rem;
+.first-text {
+  /* font-size: 4.4rem; */
+  /* position: absolute; */
+  /* left: 2.5rem;
     top: 5rem; */
-    opacity: 0;
-    animation-name: topFadeOut;
-    animation-duration: 4s;
-    color: white;
-  }
+  opacity: 0;
+  animation-name: topFadeOut;
+  animation-duration: 4s;
+  color: white;
+}
