@@ -35,13 +35,13 @@ class GoTop extends Component {
       return (
         <>
           <div className="move-up" style={{
-    position: 'fixed',
-    marginRight: '80px',
-    cursor: 'pointer',
-    bottom:' 30px',
-    right: "0",
-    zIndex: '1',
-    transition:' all .1s'
+                        position: 'fixed',
+                        marginRight: '80px',
+                        cursor: 'pointer',
+                        bottom:' 30px',
+                        right: "0",
+                        zIndex: '1',
+                        transition:' all .1s'
   }}>
             <span>
               <img src="/arrow_up.svg" onClick={this.scrollToTop}></img>

@@ -26,7 +26,7 @@ const MarketingChannels = () => {
                             <span className="col col-lg-4">2020-2021</span>
                             <span className="col">Sketch, Zeplin</span>
                         </div>
-                    <img className="justify-content-center" style={{marginTop:'70px', maxWidth:'1110px'}} src="/MarketingProject.png" alt=""/> 
+                    <img className="justify-content-center container-img" style={{marginTop:'70px'}} src="/MarketingProject.png" alt=""/> 
                 
                     <h1 className="project-headline">We engage with consumers directly through their preferred communication channels, such as push notifications, SMS, and email.</h1>
                     <div className="role row" style={{marginTop:'150px'}}>
@@ -45,18 +45,18 @@ const MarketingChannels = () => {
                     <div className="role row" style={{marginTop:'150px'}}>
                         <span className="col">E-Wave</span>
                     </div>
-                    <img className="justify-content-center" style={{marginTop:'30px', maxWidth:'1110px'}} src="/MarketingEWaveProject.png" alt=""/> 
+                    <img className="justify-content-center container-img" style={{marginTop:'30px'}} src="/MarketingEWaveProject.png" alt=""/> 
                     
                     <div className="role row" style={{marginTop:'150px'}}>
                         <span className="col">Athena</span>
                     </div>
-                    <img className="justify-content-center" style={{marginTop:'30px', maxWidth:'1110px'}} src="/MarketingAthenaProject.png" alt=""/> 
+                    <img className="justify-content-cente container-img" style={{marginTop:'30px'}} src="/MarketingAthenaProject.png" alt=""/> 
                     
                     <div className="role row" style={{marginTop:'150px'}}>
                         <span className="col">SMS</span>
                     </div>
                     {/* NOTE: change the image below when Lee will give new one */}
-                    <img className="justify-content-center" style={{marginTop:'30px', maxWidth:'1110px'}} src="/MarketingAthenaProject.png" alt=""/> 
+                    <img className="justify-content-center container-img" style={{marginTop:'30px'}} src="/MarketingAthenaProject.png" alt=""/> 
                     
                     
                    
@@ -65,16 +65,16 @@ const MarketingChannels = () => {
                     What’s Next?
                     </div>
                     <div className="row  justify-content-between" style={{marginTop:'50px' , marginBottom:'280px'}}>
-                        <div className="col col-lg-6">
+                        <div className="col col-lg-6 col-sx-12">
                             <a href="/gaming-hub">
-                                <img style={{maxWidth:'540px'}} className="col position-absolute pr-0 pl-0" src="/GammingHub.png" alt=""/>    
+                                <img className="col position-absolute pr-0 pl-0 container-img" src="/GammingHub.png" alt=""/>    
                             </a>
                             <button className="userExperience position-absolute" style={{cursor:'default',left:'20px'}}>User Experience</button>
                             <button className="userInterface position-absolute" style={{cursor:'default',left:'154px'}}>User Interface</button>
                         </div>
-                        <div className="col col-lg-6 ">
+                        <div className="col col-lg-6col-sx-12 ">
                             <a href="/electra-project">
-                                <img style={{maxWidth:'540px'}} className="col position-absolute pr-0 pl-0" src="/Electra.png" alt=""/>    
+                                <img className="col position-absolute pr-0 pl-0 container-img" src="/Electra.png" alt=""/>    
                             </a>
                             <button className="userExperience position-absolute" style={{cursor:'default',left:'20px'}}>User Experience</button>
                             <button className="userInterface position-absolute" style={{cursor:'default',left:'154px'}}>User Interface</button>
@@ -82,13 +82,13 @@ const MarketingChannels = () => {
                     </div>
 
                     <div className="role row">
-                        <div className="col col-lg-6">
+                        <div className="col col-lg-6 col-sx-12">
                             <div className="Gaming-Hub">Gaming Hub</div>
                             <div className="Landing-pages">Lotto management system</div>
                             
                         </div>
                             
-                        <div className="col col-lg-6">
+                        <div className="col col-lg-6 col-sx-12">
                             <div className="Gaming-Hub">Electra</div>
                             <div className="Landing-pages">A SaaS-based performance marketing platform</div>
                         </div>

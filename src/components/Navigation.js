@@ -99,7 +99,7 @@ const Navigation = () => {
                         <div className="sideMenu"><SideMenu></SideMenu></div>
                     </div>
             </div>
-            <div className="row justify-content-between mt-4">
+            <div className="row justify-content-between mt-4" style={{marginLeft:'80px',marginRight:'80px'}}>
                 <div>
                     <Link to="/work">
                         <h4 className="LeeMiteraniNav">Lee Miterani</h4>
