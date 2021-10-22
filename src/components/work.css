@@ -124,10 +124,7 @@
 }
 
 .animation-box {
-  /* width: 75%;
-    height: 27.5rem; */
   margin: 0 auto;
-  /* overflow: hidden; */
   position: relative;
 }
 
@@ -149,81 +146,7 @@
   }
 }
 
-/* @keyframes bottomFadeOut {
-    0% {
-      position: absolute;
-      bottom: -5rem;
-      opacity: 0;
-    }
-  
-    75% {
-      position: absolute;
-      bottom: 25%;
-      opacity: 1;
-    }
-  
-    100% {
-      opacity: 0;
-    }
-    
-  } */
-
-/* @keyframes topFadeOutVertical {
-    0% {
-      position: absolute;
-      top: -3rem;
-      opacity: 0;
-    }
-  
-    75% {
-      position: absolute;
-      top: 45%;
-      opacity: 1;
-    }
-  
-    100% {
-      opacity: 0;
-    }
-  } */
-
-/* @keyframes rightFadeInOut {
-    0% {
-      position: absolute;
-      right: -3rem;
-      opacity: 0;
-    }
-  
-    75% {
-      position: absolute;
-      right: 10rem;
-      opacity: 1;
-    }
-  
-    100% {
-      opacity: 0;
-      right: 10rem;
-    }
-  } */
-
-/* @keyframes fadeInOut {
-    0% {
-      opacity: 0;
-    }
-  
-    45% {
-      opacity: 1;
-    }
-  
-    100% {
-      opacity: 0%;
-    }
-  }
-   */
 .first-text {
-  /* font-size: 4.4rem; */
-  /* position: absolute; */
-  /* left: 2.5rem;
-    top: 5rem; */
   opacity: 0;
   animation-name: topFadeOut;
   animation-duration: 4s;

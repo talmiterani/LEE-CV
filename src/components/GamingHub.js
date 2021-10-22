@@ -94,24 +94,24 @@ const GamingHub = () => {
           />
           <div className="row" style={{ marginTop: "30px" }}>
             <img
-              className="col col-lg-6 col-xs-12"
+              className="col-lg-6 col-sm-12"
               src="/GamingHubCasinoProject1.png"
               alt=""
             />
             <img
-              className="col col-lg-6 col-xs-12"
+              className="col-lg-6 col-sm-12 gamin-hub-four-images"
               src="/GamingHubCasinoProject2.png"
               alt=""
             />
           </div>
           <div className="row" style={{ marginTop: "30px" }}>
             <img
-              className="col col-lg-6 col-xs-12 container-img"
+              className="col-lg-6 col-sm-12"
               src="/GamingHubCasinoProject3.png"
               alt=""
             />
             <img
-              className="col col-lg-6 col-xs-12 container-img"
+              className="col-lg-6 col-sm-12 gamin-hub-four-images "
               src="/GamingHubCasinoProject4.png"
               alt=""
             />
@@ -125,23 +125,20 @@ const GamingHub = () => {
             src="/GamingHubProjectManagement.png"
             alt=""
           />
-          s
           <div
             style={{ borderTop: "1px solid #fff", marginTop: "150px" }}
           ></div>
           <div className="what-next-title">What’s Next?</div>
-          <div
-            className="row  justify-content-between"
-            style={{ marginTop: "50px", marginBottom: "280px" }}
-          >
-            <div className="col col-lg-6 col-xs-12">
+          <div className="row">
+            <div className="col-lg-6 col-sm-12 " style={{ marginTop: "50px" }}>
               <a href="/electra-project">
                 <img
-                  className="col position-absolute pr-0 pl-0 container-img"
+                  className="col position-absolute pr-4 pl-0 "
                   src="/Electra.png"
                   alt=""
                 />
               </a>
+
               <button
                 className="userExperience position-absolute"
                 style={{ cursor: "default", left: "33px" }}
@@ -154,15 +151,26 @@ const GamingHub = () => {
               >
                 User Interface
               </button>
+              <div
+                className="role next-projects-images-text"
+                style={{ paddingTop: "30px" }}
+              >
+                <div className="Gaming-Hub">Electra</div>
+                <div className="Landing-pages">
+                  A SaaS-based performance marketing platform
+                </div>
+              </div>
             </div>
-            <div className="col col-lg-6 col-xs-12">
+            <div className="col-lg-6  col-sm-12" style={{ marginTop: "50px" }}>
               <a href="/marketing-channels">
                 <img
-                  className="col position-absolute pl-0 pr-0 container-img"
+                  className="col position-absolute pl-0"
                   src="/MarketingChannels.png"
                   alt=""
+                  style={{ paddingRight: "30px" }}
                 />
               </a>
+
               <button
                 className="webDesign position-absolute"
                 style={{ cursor: "default", left: "33px" }}
@@ -181,19 +189,13 @@ const GamingHub = () => {
               >
                 Branding
               </button>
-            </div>
-          </div>
-          <div className="role row">
-            <div className="col-lg-6 col-xs-12">
-              <div className="Gaming-Hub">Electra</div>
-              <div className="Landing-pages">
-                A SaaS-based performance marketing platform
+              <div
+                className=" role next-projects-images-text "
+                style={{ paddingTop: "30px" }}
+              >
+                <div className="Gaming-Hub">Marketing Channels</div>
+                <div className="Landing-pages">Landing pages</div>
               </div>
-            </div>
-
-            <div className="col-lg-6 col-xs-12">
-              <div className="Gaming-Hub">Marketing Channels</div>
-              <div className="Landing-pages">Landing pages</div>
             </div>
           </div>
         </div>

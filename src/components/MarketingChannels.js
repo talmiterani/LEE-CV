@@ -96,19 +96,18 @@ const MarketingChannels = () => {
           <div
             style={{ borderTop: "1px solid #fff", marginTop: "150px" }}
           ></div>
+
           <div className="what-next-title">What’s Next?</div>
-          <div
-            className="row  justify-content-between"
-            style={{ marginTop: "50px", marginBottom: "280px" }}
-          >
-            <div className="col col-lg-6 col-sx-12">
+          <div className="row">
+            <div className="col-lg-6 col-sm-12 " style={{ marginTop: "50px" }}>
               <a href="/gaming-hub">
                 <img
-                  className="col position-absolute pr-0 pl-0 container-img"
+                  className="col position-absolute pr-4 pl-0 "
                   src="/GammingHub.png"
                   alt=""
                 />
               </a>
+
               <button
                 className="userExperience position-absolute"
                 style={{ cursor: "default", left: "33px" }}
@@ -121,15 +120,25 @@ const MarketingChannels = () => {
               >
                 User Interface
               </button>
+
+              <div
+                className="role next-projects-images-text"
+                style={{ paddingTop: "30px" }}
+              >
+                <div className="Gaming-Hub">Gaming Hub</div>
+                <div className="Landing-pages">Lotto management system</div>
+              </div>
             </div>
-            <div className="col col-lg-6col-sx-12 ">
+            <div className="col-lg-6  col-sm-12" style={{ marginTop: "50px" }}>
               <a href="/electra-project">
                 <img
-                  className="col position-absolute pr-0 pl-0 container-img"
+                  className="col position-absolute pl-0"
                   src="/Electra.png"
                   alt=""
+                  style={{ paddingRight: "30px" }}
                 />
               </a>
+
               <button
                 className="userExperience position-absolute"
                 style={{ cursor: "default", left: "33px" }}
@@ -142,19 +151,14 @@ const MarketingChannels = () => {
               >
                 User Interface
               </button>
-            </div>
-          </div>
-
-          <div className="role row">
-            <div className="col col-lg-6 col-sx-12">
-              <div className="Gaming-Hub">Gaming Hub</div>
-              <div className="Landing-pages">Lotto management system</div>
-            </div>
-
-            <div className="col col-lg-6 col-sx-12">
-              <div className="Gaming-Hub">Electra</div>
-              <div className="Landing-pages">
-                A SaaS-based performance marketing platform
+              <div
+                className=" role next-projects-images-text "
+                style={{ paddingTop: "30px" }}
+              >
+                <div className="Gaming-Hub">Electra</div>
+                <div className="Landing-pages">
+                  A SaaS-based performance marketing platform
+                </div>
               </div>
             </div>
           </div>
