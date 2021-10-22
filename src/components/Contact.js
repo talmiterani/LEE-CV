@@ -10,7 +10,7 @@ export default function Contact() {
       <form
         action="mailto:lee.gouetta@gmail.com"
         method="POST"
-        enctype="text/plain"
+        encType="text/plain"
         name="EmailForm"
       >
         <div className="form-row justify-content-center">
@@ -78,16 +78,6 @@ export default function Contact() {
           </div>
         </div>
       </form>
-
-      {/* 
-        <form action="mailto:chriscoyier@gmail.com">
-    
-    
-        <input name="subject" id="subject" type="text" class="input" value="Exampleaaa"/>
-    <div class="field"><label class="label" for="body">Email Body</label>
-        <textarea class="textarea" name="body" id="body">Example Email Body</textarea></div>
-    <div><input type="submit" value="Create Email" class="button is-primary"/></div>
-</form> */}
     </div>
   );
 }

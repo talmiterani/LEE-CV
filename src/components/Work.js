@@ -9,7 +9,7 @@ export default function Work() {
     return (
       <section className="animation-box d-flex justify-content-center">
         <div
-          class="first-text "
+          className="first-text"
           style={{
             fontWeight: "500",
             fontFamily: "Roboto",
@@ -39,7 +39,7 @@ export default function Work() {
               style={{ marginTop: "70px" }}
             >
               <div className="row position-relative">
-                <a className="col" href="/electra-project">
+                <a href="/electra-project">
                   <img
                     onMouseOver={() => {
                       document.body.classList.remove(
@@ -58,7 +58,7 @@ export default function Work() {
                     alt=""
                   />
                   <img
-                    className="container-img "
+                    className="container-img"
                     src="/ElectraDashboardHP.png"
                     alt=""
                   />
@@ -77,31 +77,21 @@ export default function Work() {
                 </button>
               </div>
             </div>
-
-            <div class="row">
-              <div
-                style={{ paddingLeft: "30px" }}
-                className="image-title col-md-12 offset-md-1"
-              >
-                Electra
-              </div>
+            <div className="row">
+              <div className="image-title title-work-margin-left">Electra</div>
             </div>
-            <div class="row">
-              <div
-                style={{ paddingLeft: "30px" }}
-                className="textDis col-12 offset-md-1"
-              >
+            <div className="row">
+              <div className="textDis title-work-margin-left">
                 A SaaS-based performance marketing platform
               </div>
             </div>
-
             <div
               className="justify-content-center d-flex"
               id="cf"
               style={{ marginTop: "70px" }}
             >
               <div className="row position-relative">
-                <a className="col" href="/marketing-channels">
+                <a href="/marketing-channels">
                   <img
                     onMouseOver={() => {
                       document.body.classList.remove(
@@ -148,29 +138,22 @@ export default function Work() {
               </div>
             </div>
             <div className="row">
-              <div
-                style={{ paddingLeft: "30px" }}
-                className="image-title col-md-12 offset-md-1"
-              >
+              <div className="image-title title-work-margin-left">
                 Marketing Channels
               </div>
             </div>
             <div className="row">
-              <div
-                style={{ paddingLeft: "30px" }}
-                className="textDis col-12 offset-md-1"
-              >
+              <div className="textDis title-work-margin-left">
                 Landing pages
               </div>
             </div>
-
             <div
               className="justify-content-center d-flex"
               id="cf"
               style={{ marginTop: "70px" }}
             >
               <div className="row position-relative">
-                <a className="col" href="/gaming-hub">
+                <a href="/gaming-hub">
                   <img
                     onMouseOver={() => {
                       document.body.classList.remove(
@@ -211,18 +194,12 @@ export default function Work() {
               </div>
             </div>
             <div className="row">
-              <div
-                style={{ paddingLeft: "30px" }}
-                className="image-title col-md-12 offset-md-1"
-              >
+              <div className="image-title  title-work-margin-left">
                 Gaming Hub
               </div>
             </div>
             <div className="row">
-              <div
-                style={{ paddingLeft: "30px" }}
-                className="textDis col-12 offset-md-1"
-              >
+              <div className="textDis  title-work-margin-left">
                 Lotto management system
               </div>
             </div>

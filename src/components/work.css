@@ -146,9 +146,17 @@
   }
 }
 
+.title-work-margin-left {
+  margin-left: 122px;
+}
 .first-text {
   opacity: 0;
   animation-name: topFadeOut;
   animation-duration: 4s;
   color: white;
+}
+@media (max-width: 1100px) {
+  .title-work-margin-left {
+    margin-left: 0px;
+  }
 }
