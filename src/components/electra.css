@@ -104,3 +104,8 @@
     margin-top: 240px;
   }
 }
+@media (max-width: 500px) {
+  .next-projects-images-text {
+    margin-top: 150px;
+  }
+}
