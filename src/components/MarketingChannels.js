@@ -5,7 +5,7 @@ const MarketingChannels = () => {
   return (
     <div>
       <GoTop scrollStepInPx="50" delayInMs="20" />
-      <div className="container">
+      <div className="container paddingSidesMobile">
         <div className="col justify-content-start align-items-start pl-0 pr-0">
           <h1 className="electraHeaderTop">Marketing Channels</h1>
           <h1 className="electraHeaderBottom">Landing pages</h1>

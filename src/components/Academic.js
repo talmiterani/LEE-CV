@@ -4,7 +4,7 @@ import GoTop from "./ScrollToTop";
 
 export default function Academic() {
   return (
-    <div className="container">
+    <div className="container paddingSidesMobile">
       <GoTop scrollStepInPx="50" delayInMs="20" />
       <h1 className="headlineAcademic">
         I studied Visual Communication at HIT and User Experience at Codesigner

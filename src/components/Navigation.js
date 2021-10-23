@@ -29,7 +29,7 @@ const Navigation = () => {
     }
   };
   return (
-    <div className="container-fluid">
+    <div className="container-fluid paddingSidesMobile">
       <div className=" sideMenu d-flex row align-items-center ">
         <div className="col-11">
           <h4 className="LeeMiteraniNavSideMenu">Lee Miterani</h4>

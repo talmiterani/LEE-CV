@@ -88,3 +88,11 @@
   background: #2d34db;
   transition: background 2s;
 }
+@media (max-width: 990px) {
+  .headlineAcademic {
+    font-family: Lora;
+    font-size: 34px;
+    color: white;
+    margin-top: 40px;
+  }
+}

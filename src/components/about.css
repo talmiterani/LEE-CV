@@ -2,7 +2,6 @@
   font-family: Lora;
   font-size: 34px;
   color: white;
-  width: 85%;
 }
 .titleInAboutPage {
   font-family: Roboto;
@@ -14,4 +13,16 @@
   font-family: Roboto;
   font-size: 14px;
   color: white;
+}
+.paddingTopMobile {
+  padding-top: 0px;
+}
+@media (max-width: 900px) {
+  .intreductionP {
+    padding-left: 20px;
+    font-size: 22px;
+  }
+  .paddingTopMobile {
+    padding-top: 40px;
+  }
 }

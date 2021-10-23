@@ -3,30 +3,24 @@
   font-size: 48px;
   color: white;
   margin-top: 60px;
-  margin-right: 460px;
   margin-bottom: 60px;
 }
 #name,
 #email {
-  width: 280px;
   height: 48px;
   border-radius: 2px;
 }
 .labelName,
 .labelEmail {
-  width: 54px;
   height: 23px;
   font-family: Roboto;
   font-size: 16px;
   color: white;
 }
 #message {
-  width: 620px;
   height: 130px;
-  resize: none;
 }
 .labelMessage {
-  width: 54px;
   height: 23px;
   font-family: Roboto;
   font-size: 16px;
@@ -50,4 +44,13 @@
   background-color: #75b5ff;
   border-width: 0px;
   color: white;
+}
+.email-padding-left {
+  padding-left: 60px;
+}
+@media (max-width: 990px) {
+  .email-padding-left {
+    padding-left: 0px;
+    padding-top: 30px;
+  }
 }

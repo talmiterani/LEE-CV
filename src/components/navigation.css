@@ -1,82 +1,95 @@
-.navItem{
-    color: white;
+.navItem {
+  color: white;
 }
-nav{
-    height: 80px;
+nav {
+  height: 80px;
 }
 .LeeMiteraniNav {
-    font-family: Roboto;
-    color: #ffffff;
-  }
-.navlinks{
+  font-family: Roboto;
+  color: #ffffff;
+}
+.navlinks {
   font-family: Roboto;
   font-size: 16px;
   color: #ffffff;
 }
 .navlinks:hover {
-    color: white;
+  color: white;
 }
-.navlinkClicked{
+.navlinkClicked {
   font-family: Roboto;
   font-size: 16px;
-  color:#0075ff
+  color: #0075ff;
 }
 .navlinkClicked:hover {
-  color:#0075ff;
+  color: #0075ff;
 }
-.resumeBtn{
-    height: 36px;
-    width:100px;
-    font-size:16px;
-    background-color: #0075ff;
-    color: white;
-    border-width:0px;
-    font-weight: 500;
-}  
-.resumeBtn:hover{
-    background-color: #75b5ff;
-    border-width:0px;
-    color: white;
+.resumeBtn {
+  height: 36px;
+  width: 100px;
+  font-size: 16px;
+  background-color: #0075ff;
+  color: white;
+  border-width: 0px;
+  font-weight: 500;
+}
+.resumeBtn:hover {
+  background-color: #75b5ff;
+  border-width: 0px;
+  color: white;
 }
 
-.sideMenu{
-    display: none;
+.sideMenu {
+  display: none;
 }
 .LeeMiteraniNavSideMenu {
   display: none;
 }
-.btn:focus,.btn:active {
+.btn:focus,
+.btn:active {
   outline: none !important;
   box-shadow: none;
 }
+.paddingSidesMobile {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.padding-top-for-everone-else {
+  padding-top: 0px;
+}
 @media (max-width: 880px) {
-
-	.navlinks {
-		display: none;
-	}
-    .resumeBtn {
-		display: none;
-	}
-  .navlinkClicked{
+  .navlinks {
     display: none;
-
+  }
+  .resumeBtn {
+    display: none;
+  }
+  .navlinkClicked {
+    display: none;
   }
   .LeeMiteraniNav {
-        display: none;
+    display: none;
   }
-  .sideMenu{
-        display: inline;
-        color: white;
-        margin-top: 20px;
-        font-size: 16px;
+  .sideMenu {
+    display: inline;
+    color: white;
+    margin-top: 20px;
+    font-size: 16px;
   }
   .LeeMiteraniNavSideMenu {
-      display: inline;
-        font-family: Roboto;
-        color: #ffffff;
-        font-size: 16px;
-      } 
+    display: inline;
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 16px;
+  }
   .move-up {
     display: none;
+  }
+  .paddingSidesMobile {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .padding-top-for-everone-else {
+    padding-top: 30px;
   }
 }

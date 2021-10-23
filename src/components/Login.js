@@ -17,7 +17,7 @@ const Login = (props) => {
     }
   };
   return (
-    <div className="container-fluid m-0 p-0 position-relative">
+    <div className="container position-relative paddingSidesMobile">
       <div
         className="row justify-content-center "
         style={{ marginTop: "140px", color: "white", background: "black" }}
@@ -85,13 +85,32 @@ const Login = (props) => {
         </button>
       </div>
       <div className="row For-Recruiters">
-        <div className="col-4 p-0">For Recruiters</div>
-        <div className="col-5 " style={{ paddingLeft: "30px" }}>
-          For Everyone Else
+        <div className="col-md-5">
+          <div>For Recruiters</div>
+          <div className="instructions">
+            Please check the resume I sent/uploaded with the application.
+            <br></br>
+            It has a password to open this page.
+          </div>
+        </div>
+        <div className="col-md-5 padding-top-for-everone-else">
+          <div>For Everyone Else</div>
+          <div className="instructions">
+            If you are someone who is curious to see this page,<br></br>
+            send me an email to{" "}
+            <span className="box-e">
+              <a
+                href="mailto:lee.gouetta@gmail.com "
+                className=" custom-underline pointer"
+              >
+                Lee.gouetta@gmail.com
+              </a>
+            </span>
+          </div>
         </div>
       </div>
-      <div className="row instructions">
-        <div className="col-4 p-0">
+      {/* <div className="row instructions">
+         <div className="col-4 p-0">
           Please check the resume I sent/uploaded with the application.<br></br>
           It has a password to open this page.
         </div>
@@ -107,7 +126,7 @@ const Login = (props) => {
             </a>
           </span>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

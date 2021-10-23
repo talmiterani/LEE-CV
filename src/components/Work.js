@@ -27,7 +27,7 @@ export default function Work() {
     return (
       <>
         <GoTop scrollStepInPx="50" delayInMs="20" />
-        <div className="container">
+        <div className="container paddingSidesMobile">
           <h1 className="headlineAcademic">
             Designing digital products that solve users and business problems
           </h1>
