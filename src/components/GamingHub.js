@@ -31,16 +31,16 @@ const GamingHub = () => {
             src="/GamingHubProject.png"
             alt=""
           />
-          <h1 className="project-headline">
+          <h1 className="project-headline margin-top-section">
             Gaming Hub is a management system that connects employees, sales
             teams, and managers by way of a central database.
           </h1>
-          <div className="role row" style={{ marginTop: "150px" }}>
-            <span className="col col-lg-5">Challenge</span>
+          <div className="role row margin-top-section">
+            <span className="col col-lg-6">Challenge</span>
             <span className="col">Research</span>
           </div>
           <div className="User-Experience-Interface row">
-            <span className="col col-lg-5">
+            <span className="col col-lg-6">
               Provide a more intuitive and convenient user interface<br></br>
               without too much change in structure.
             </span>
@@ -51,13 +51,13 @@ const GamingHub = () => {
               <br></br> to determine the best solutions for the product.
             </span>
           </div>
-          <div className="role row" style={{ marginTop: "150px" }}>
+          <div className="role row margin-top-section">
             <span className="col">Target Audience</span>
           </div>
           <h1 className="project-headline" style={{ marginTop: "10px" }}>
             Users who have studied the system and become familiar with it.
           </h1>
-          <div className="role row" style={{ marginTop: "150px" }}>
+          <div className="role row margin-top-section">
             <span className="col">Style Guide</span>
           </div>
           <img
@@ -66,14 +66,14 @@ const GamingHub = () => {
             src="/GamingHubStyleProject.png"
             alt=""
           />
-          <div className="role row" style={{ marginTop: "150px" }}>
+          <div className="role row margin-top-section">
             <span className="col">Design</span>
           </div>
           <h1 className="project-headline" style={{ marginTop: "10px" }}>
             With a simple interface and minimal learning curve, the platform
             allows for quick access to analytics & personal data.
           </h1>
-          <div className="role row" style={{ marginTop: "150px" }}>
+          <div className="role row margin-top-section">
             <span className="col">Dashboard</span>
           </div>
           <img
@@ -82,7 +82,7 @@ const GamingHub = () => {
             src="/GamingHubDashboardProject.png"
             alt=""
           />
-          <div className="role row" style={{ marginTop: "150px" }}>
+          <div className="role row margin-top-section">
             <span className="col">Casino</span>
           </div>
           {/* NOTE: change the image below when Lee will give new one */}
@@ -116,7 +116,7 @@ const GamingHub = () => {
               alt=""
             />
           </div>
-          <div className="role row" style={{ marginTop: "150px" }}>
+          <div className="role row margin-top-section">
             <span className="col">Management</span>
           </div>
           <img
@@ -126,7 +126,8 @@ const GamingHub = () => {
             alt=""
           />
           <div
-            style={{ borderTop: "1px solid #fff", marginTop: "150px" }}
+            className="margin-top-section"
+            style={{ borderTop: "1px solid #fff" }}
           ></div>
           <div className="what-next-title">What’s Next?</div>
           <div className="row">

@@ -32,7 +32,9 @@ const Navigation = () => {
     <div className="container-fluid paddingSidesMobile">
       <div className=" sideMenu d-flex row align-items-center ">
         <div className="col-11">
-          <h4 className="LeeMiteraniNavSideMenu">Lee Miterani</h4>
+          <Link to="/work">
+            <h4 className="LeeMiteraniNavSideMenu">Lee Miterani</h4>
+          </Link>
         </div>
         <div>
           <div className="sideMenu">

@@ -88,12 +88,12 @@ const Login = (props) => {
         <div className="col-md-5">
           <div>For Recruiters</div>
           <div className="instructions">
-            Please check the resume I sent/uploaded with the application.
+            Please check the resume I sent or uploaded with the application.
             <br></br>
             It has a password to open this page.
           </div>
         </div>
-        <div className="col-md-5 padding-top-for-everone-else">
+        <div className="col-md-5 offset-md-1 padding-top-for-everone-else">
           <div>For Everyone Else</div>
           <div className="instructions">
             If you are someone who is curious to see this page,<br></br>

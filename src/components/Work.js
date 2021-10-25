@@ -65,22 +65,22 @@ export default function Work() {
                 </a>
                 <button
                   className="userExperience position-absolute"
-                  style={{ cursor: "default", left: "33px" }}
+                  style={{ cursor: "default", left: "20px" }}
                 >
                   User Experience
                 </button>
                 <button
                   className="userInterface position-absolute"
-                  style={{ cursor: "default", left: "167px" }}
+                  style={{ cursor: "default", left: "154px" }}
                 >
                   User Interface
                 </button>
               </div>
             </div>
-            <div className="row">
+            <div className="row container">
               <div className="image-title title-work-margin-left">Electra</div>
             </div>
-            <div className="row">
+            <div className="row container">
               <div className="textDis title-work-margin-left">
                 A SaaS-based performance marketing platform
               </div>
@@ -119,30 +119,30 @@ export default function Work() {
                 </a>
                 <button
                   className="webDesign position-absolute"
-                  style={{ cursor: "default", left: "33px" }}
+                  style={{ cursor: "default", left: "20px" }}
                 >
                   Web Design
                 </button>
                 <button
                   className="marketing position-absolute"
-                  style={{ cursor: "default", left: "140px" }}
+                  style={{ cursor: "default", left: "127px" }}
                 >
                   Marketing
                 </button>
                 <button
                   className="branding position-absolute"
-                  style={{ cursor: "default", left: "235px" }}
+                  style={{ cursor: "default", left: "222px" }}
                 >
                   Branding
                 </button>
               </div>
             </div>
-            <div className="row">
+            <div className="row container">
               <div className="image-title title-work-margin-left">
                 Marketing Channels
               </div>
             </div>
-            <div className="row">
+            <div className="row container">
               <div className="textDis title-work-margin-left">
                 Landing pages
               </div>
@@ -181,24 +181,24 @@ export default function Work() {
                 </a>
                 <button
                   className="userExperience position-absolute"
-                  style={{ cursor: "default", left: "33px" }}
+                  style={{ cursor: "default", left: "20px" }}
                 >
                   User Experience
                 </button>
                 <button
                   className="userInterface position-absolute"
-                  style={{ cursor: "default", left: "167px" }}
+                  style={{ cursor: "default", left: "154px" }}
                 >
                   User Interface
                 </button>
               </div>
             </div>
-            <div className="row">
+            <div className="row container">
               <div className="image-title  title-work-margin-left">
                 Gaming Hub
               </div>
             </div>
-            <div className="row">
+            <div className="row container">
               <div className="textDis  title-work-margin-left">
                 Lotto management system
               </div>

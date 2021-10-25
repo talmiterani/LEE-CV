@@ -32,16 +32,16 @@ const MarketingChannels = () => {
             alt=""
           />
 
-          <h1 className="project-headline">
+          <h1 className="project-headline margin-top-section">
             We engage with consumers directly through their preferred
             communication channels, such as push notifications, SMS, and email.
           </h1>
-          <div className="role row" style={{ marginTop: "150px" }}>
-            <span className="col col-lg-5">Challenge</span>
+          <div className="role row margin-top-section">
+            <span className="col col-lg-6">Challenge</span>
             <span className="col">Research</span>
           </div>
           <div className="User-Experience-Interface row">
-            <span className="col col-lg-5">
+            <span className="col col-lg-6">
               In order to attract new B2B customers, we need to create landing
               pages showcasing our products.
             </span>
@@ -53,7 +53,7 @@ const MarketingChannels = () => {
               product.
             </span>
           </div>
-          <div className="role row" style={{ marginTop: "150px" }}>
+          <div className="role row margin-top-section">
             <span className="col">Design</span>
           </div>
           <h1 className="project-headline" style={{ marginTop: "10px" }}>
@@ -62,7 +62,7 @@ const MarketingChannels = () => {
             E-Wave, I tried to communicate different values.
           </h1>
 
-          <div className="role row" style={{ marginTop: "150px" }}>
+          <div className="role row margin-top-section">
             <span className="col">E-Wave</span>
           </div>
           <img
@@ -72,7 +72,7 @@ const MarketingChannels = () => {
             alt=""
           />
 
-          <div className="role row" style={{ marginTop: "150px" }}>
+          <div className="role row margin-top-section">
             <span className="col">Athena</span>
           </div>
           <img
@@ -82,7 +82,7 @@ const MarketingChannels = () => {
             alt=""
           />
 
-          <div className="role row" style={{ marginTop: "150px" }}>
+          <div className="role row margin-top-section">
             <span className="col">TextBlast</span>
           </div>
           {/* NOTE: change the image below when Lee will give new one */}
@@ -94,7 +94,8 @@ const MarketingChannels = () => {
           />
 
           <div
-            style={{ borderTop: "1px solid #fff", marginTop: "150px" }}
+            className="margin-top-section"
+            style={{ borderTop: "1px solid #fff" }}
           ></div>
 
           <div className="what-next-title">What’s Next?</div>

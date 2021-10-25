@@ -25,7 +25,6 @@
   color: white;
 }
 .project-headline {
-  margin-top: 150px;
   font-family: Lora;
   font-size: 34px;
   font-weight: normal;
@@ -39,14 +38,12 @@
   color: white;
 }
 .Competitive-Analysis {
-  margin-top: 150px;
   font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   color: white;
 }
 .Target-Audience {
-  margin-top: 150px;
   font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
@@ -59,7 +56,6 @@
   color: white;
 }
 .Style-Guide {
-  margin-top: 150px;
   font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
@@ -98,6 +94,9 @@
 .body-section {
   margin-top: 60px;
 }
+.margin-top-section {
+  margin-top: 150px;
+}
 @media (max-width: 990px) {
   .gamin-hub-four-images {
     margin-top: 30px;
@@ -119,6 +118,9 @@
     font-family: Lora;
     font-size: 34px;
     color: white;
+  }
+  .margin-top-section {
+    margin-top: 70px;
   }
 }
 @media (max-width: 500px) {

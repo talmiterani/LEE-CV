@@ -12,6 +12,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import PrivateRoute from "./components/PrivateRoute";
 import Default from "./components/Default";
 import Electra from "./components/Electra";
+import Penny from "./components/Penny";
 import Mobile from "./components/Mobile";
 import MarketingChannels from "./components/MarketingChannels";
 import GamingHub from "./components/GamingHub";
@@ -34,6 +35,7 @@ class App extends Component {
             <Route exact path="/about" component={About} />
             <Route exact path="/contact" component={Contact} />
             <PrivateRoute exact path="/electra-project" component={Electra} />
+            <PrivateRoute exact path="/Penny-project" component={Penny} />
             <PrivateRoute
               exact
               path="/marketing-channels"

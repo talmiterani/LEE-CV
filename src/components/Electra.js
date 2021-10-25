@@ -34,16 +34,16 @@ const Electra = () => {
             alt=""
           />
 
-          <h1 className="project-headline">
+          <h1 className="project-headline margin-top-section">
             Electra is a performance marketing platform that manages, tracks,
             analyzes, and optimizes online advertising campaigns in real-time
           </h1>
-          <div className="role row" style={{ marginTop: "150px" }}>
-            <span className="col col-lg-5">Challenge</span>
+          <div className="role row margin-top-section">
+            <span className="col col-lg-6">Challenge</span>
             <span className="col">Research</span>
           </div>
           <div className="User-Experience-Interface row">
-            <span className="col col-lg-5">
+            <span className="col col-lg-6">
               In order to make the experience more intuitive and comfortable,
               the interface structure had to be changed.
             </span>
@@ -54,24 +54,22 @@ const Electra = () => {
               product.
             </span>
           </div>
+          <div className="Competitive-Analysis margin-top-section">
+            Competitive Analysis
+          </div>
           <img
             className="justify-content-center container-img"
-            style={{ marginTop: "70px" }}
-            src="/ElectraDashboardProject.png"
-            alt=""
-          />
-          <div className="Competitive-Analysis">Competitive Analysis</div>
-          <img
-            className="justify-content-center container-img"
-            style={{ marginTop: "70px" }}
+            style={{ marginTop: "30px" }}
             src="/ElectraCompetitiveProject.png"
             alt=""
           />
-          <div className="Target-Audience">Target Audience</div>
+          <div className="Target-Audience margin-top-section">
+            Target Audience
+          </div>
           <h1 className="Affiliates-in-verticals">
             Affiliates in verticals such as finance, casinos and lotteries
           </h1>
-          <div className="Style-Guide">Style Guide</div>
+          <div className="Style-Guide margin-top-section">Style Guide</div>
           <img
             className="justify-content-center container-img"
             style={{ marginTop: "30px" }}
@@ -79,34 +77,38 @@ const Electra = () => {
             alt=""
           />
 
-          <div className="Target-Audience">Design</div>
+          <div className="Target-Audience margin-top-section">Design</div>
           <h1 className="Affiliates-in-verticals">
             Through an easy-to-use interface, the platform allows you to manage
             affiliates, set up rules based on traffic types, track, analyze, and
             optimize online advertising campaigns.
           </h1>
-          <div className="Style-Guide">Affiliates Management</div>
+          <div className="Style-Guide margin-top-section">
+            Affiliates Management
+          </div>
           <img
             className="justify-content-center container-img"
             style={{ marginTop: "30px" }}
             src="/AffiliatesManagmenetProject.png"
             alt=""
           />
-          <div className="Style-Guide">Dashboard</div>
+          <div className="Style-Guide margin-top-section">Dashboard</div>
           <img
             className="justify-content-center container-img"
             style={{ marginTop: "30px" }}
             src="/ElectraDashboard.png"
             alt=""
           />
-          <div className="Style-Guide">Management</div>
+          <div className="Style-Guide margin-top-section">Management</div>
           <img
             className="justify-content-center container-img"
             style={{ marginTop: "30px" }}
             src="/ManagmentProject.png"
             alt=""
           />
-          <div className="Style-Guide">Permissions Setup</div>
+          <div className="Style-Guide margin-top-section">
+            Permissions Setup
+          </div>
           <img
             className="justify-content-center container-img"
             style={{ marginTop: "30px" }}
@@ -114,7 +116,8 @@ const Electra = () => {
             alt=""
           />
           <div
-            style={{ borderTop: "1px solid #fff", marginTop: "150px" }}
+            className="margin-top-section"
+            style={{ borderTop: "1px solid #fff" }}
           ></div>
 
           <div className="what-next-title">What’s Next?</div>
