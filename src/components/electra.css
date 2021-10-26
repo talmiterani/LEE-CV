@@ -11,7 +11,6 @@
   color: white;
 }
 .role {
-  margin-top: 62px;
   font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
@@ -97,6 +96,12 @@
 .margin-top-section {
   margin-top: 150px;
 }
+.login-padding-left-recruiters {
+  padding-left: 0px;
+}
+.what-is-next-images-text {
+  padding-top: 30px;
+}
 @media (max-width: 990px) {
   .gamin-hub-four-images {
     margin-top: 30px;
@@ -122,9 +127,18 @@
   .margin-top-section {
     margin-top: 70px;
   }
+  .login-padding-left-recruiters {
+    padding-left: 20px;
+  }
+  .what-is-next-images-text {
+    padding-top: 0px;
+  }
 }
 @media (max-width: 500px) {
   .next-projects-images-text {
     margin-top: 150px;
+  }
+  .what-is-next-images-text {
+    padding-top: 80px;
   }
 }

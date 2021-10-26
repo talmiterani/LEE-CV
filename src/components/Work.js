@@ -77,10 +77,10 @@ export default function Work() {
                 </button>
               </div>
             </div>
-            <div className="row container">
+            <div className="row container pl-0">
               <div className="image-title title-work-margin-left">Electra</div>
             </div>
-            <div className="row container">
+            <div className="row container pl-0">
               <div className="textDis title-work-margin-left">
                 A SaaS-based performance marketing platform
               </div>
@@ -137,12 +137,12 @@ export default function Work() {
                 </button>
               </div>
             </div>
-            <div className="row container">
+            <div className="row container pl-0">
               <div className="image-title title-work-margin-left">
                 Marketing Channels
               </div>
             </div>
-            <div className="row container">
+            <div className="row container pl-0">
               <div className="textDis title-work-margin-left">
                 Landing pages
               </div>
@@ -193,12 +193,12 @@ export default function Work() {
                 </button>
               </div>
             </div>
-            <div className="row container">
+            <div className="row container pl-0">
               <div className="image-title  title-work-margin-left">
                 Gaming Hub
               </div>
             </div>
-            <div className="row container">
+            <div className="row container pl-0">
               <div className="textDis  title-work-margin-left">
                 Lotto management system
               </div>

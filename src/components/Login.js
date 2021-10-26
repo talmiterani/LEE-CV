@@ -85,19 +85,21 @@ const Login = (props) => {
         </button>
       </div>
       <div className="row For-Recruiters">
-        <div className="col-md-5">
+        <div className="col-md-5 pr-4 login-padding-left-recruiters">
           <div>For Recruiters</div>
           <div className="instructions">
-            Please check the resume I sent or uploaded with the application.
-            <br></br>
-            It has a password to open this page.
+            Please check the resume I sent or uploaded with the application. It
+            has a password to open this page.
           </div>
         </div>
-        <div className="col-md-5 offset-md-1 padding-top-for-everone-else">
+        <div
+          className="col-md-5 padding-top-for-everone-else"
+          style={{ paddingRight: "75px", paddingLeft: "20px" }}
+        >
           <div>For Everyone Else</div>
           <div className="instructions">
-            If you are someone who is curious to see this page,<br></br>
-            send me an email to{" "}
+            If you are someone who is curious to see this page, send me an email
+            to{" "}
             <span className="box-e">
               <a
                 href="mailto:lee.gouetta@gmail.com "
@@ -109,24 +111,6 @@ const Login = (props) => {
           </div>
         </div>
       </div>
-      {/* <div className="row instructions">
-         <div className="col-4 p-0">
-          Please check the resume I sent/uploaded with the application.<br></br>
-          It has a password to open this page.
-        </div>
-        <div className="col-5 " style={{ paddingLeft: "30px" }}>
-          If you are someone who is curious to see this page,<br></br>
-          send me an email to{" "}
-          <span className="box-e">
-            <a
-              href="mailto:lee.gouetta@gmail.com "
-              className=" custom-underline pointer"
-            >
-              Lee.gouetta@gmail.com
-            </a>
-          </span>
-        </div>
-      </div> */}
     </div>
   );
 };

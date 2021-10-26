@@ -31,12 +31,7 @@ export default function Academic() {
                 src="/penny.png"
                 alt=""
               />
-              {/* change images */}
-              <img
-                className="container-img"
-                src="/ElectraDashboardHP.png"
-                alt=""
-              />
+              <img className="container-img" src="/penny-hover.png" alt="" />
             </a>
             <button
               className="Tags1 position-absolute"
@@ -49,10 +44,10 @@ export default function Academic() {
             </button>
           </div>
         </div>
-        <div className="row container">
+        <div className="row container pl-0">
           <div className="image-title title-work-margin-left">Penny</div>
         </div>
-        <div className="row container">
+        <div className="row container pl-0">
           <div className="textDis title-work-margin-left">
             App for learning finance
           </div>
@@ -63,7 +58,7 @@ export default function Academic() {
           style={{ marginTop: "70px" }}
         >
           <div className="row position-relative">
-            <div href="/marketing-channels">
+            <div>
               <img
                 onMouseOver={() => {
                   document.body.classList.remove("backGroundColorChangeBack");
@@ -77,12 +72,7 @@ export default function Academic() {
                 src="/comingSoon1.png"
                 alt=""
               />
-              {/* change image ? */}
-              <img
-                className="container-img"
-                src="/MarketingEWaveHP.png"
-                alt=""
-              />
+              <img className="container-img" src="/comingSoon1.png" alt="" />
             </div>
             <button
               className="Tags1 position-absolute"
@@ -95,10 +85,10 @@ export default function Academic() {
             </button>
           </div>
         </div>
-        <div className="row container">
+        <div className="row container pl-0">
           <div className="image-title title-work-margin-left">Look Around</div>
         </div>
-        <div className="row container">
+        <div className="row container pl-0">
           <div className="textDis title-work-margin-left">
             Furniture shopping app
           </div>
@@ -109,7 +99,7 @@ export default function Academic() {
           style={{ marginTop: "70px" }}
         >
           <div className="row position-relative">
-            <div href="/gaming-hub">
+            <div>
               <img
                 onMouseOver={() => {
                   document.body.classList.remove("backGroundColorChangeBack");
@@ -123,12 +113,7 @@ export default function Academic() {
                 src="/comingSoon2.png"
                 alt=""
               />
-              {/* change image ? */}
-              <img
-                className="container-img"
-                src="/GamingHubCasinoHP.png"
-                alt=""
-              />
+              <img className="container-img" src="/comingSoon2.png" alt="" />
             </div>
             <button
               className="webDesign position-absolute"
@@ -161,12 +146,12 @@ export default function Academic() {
             </button>
           </div>
         </div>
-        <div className="row container">
+        <div className="row container pl-0">
           <div className="image-title  title-work-margin-left">
             That's How It's In Hebrew
           </div>
         </div>
-        <div className="row container">
+        <div className="row container pl-0">
           <div className="textDis  title-work-margin-left">
             Guerilla campaign to promote Hebrew language
           </div>

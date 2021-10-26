@@ -11,7 +11,7 @@ const Electra = () => {
           <h1 className="electraHeaderBottom">
             Performance marketing platform
           </h1>
-          <div className="role row">
+          <div className="role row" style={{ paddingTop: "62px" }}>
             <span className="col col-lg-4">Role</span>
             <span className="col">Skills</span>
           </div>
@@ -19,7 +19,7 @@ const Electra = () => {
             <span className="col col-lg-4">User Experience & Interface</span>
             <span className="col">UX UI Design</span>
           </div>
-          <div className="role row">
+          <div className="role row" style={{ paddingTop: "62px" }}>
             <span className="col col-lg-4">Duration</span>
             <span className="col">Tools</span>
           </div>
@@ -38,21 +38,23 @@ const Electra = () => {
             Electra is a performance marketing platform that manages, tracks,
             analyzes, and optimizes online advertising campaigns in real-time
           </h1>
-          <div className="role row margin-top-section">
-            <span className="col col-lg-6">Challenge</span>
-            <span className="col">Research</span>
-          </div>
-          <div className="User-Experience-Interface row">
-            <span className="col col-lg-6">
-              In order to make the experience more intuitive and comfortable,
-              the interface structure had to be changed.
-            </span>
-            <span className="col">
-              For the first part of my research, I analyzed the competitive
-              landscape to determine where they fit. Later, I searched even
-              outside of my field of expertise to find solutions for the
-              product.
-            </span>
+          <div className="row">
+            <div className="col-lg-5 margin-top-section">
+              <div className="role">Challenge</div>
+              <div className="User-Experience-Interface">
+                In order to make the experience more intuitive and comfortable,
+                the interface structure had to be changed.
+              </div>
+            </div>
+            <div className="col-lg-7 margin-top-section">
+              <div className="role">Research</div>
+              <div className="User-Experience-Interface">
+                For the first part of my research, I analyzed the competitive
+                landscape to determine where they fit. Later, I searched even
+                outside of my field of expertise to find solutions for the
+                product.
+              </div>
+            </div>
           </div>
           <div className="Competitive-Analysis margin-top-section">
             Competitive Analysis
@@ -121,6 +123,7 @@ const Electra = () => {
           ></div>
 
           <div className="what-next-title">What’s Next?</div>
+
           <div className="row">
             <div className="col-lg-6 col-sm-12 " style={{ marginTop: "50px" }}>
               <a href="/gaming-hub">
@@ -143,10 +146,7 @@ const Electra = () => {
               >
                 User Interface
               </button>
-              <div
-                className="role next-projects-images-text"
-                style={{ paddingTop: "30px" }}
-              >
+              <div className="role next-projects-images-text what-is-next-images-text">
                 <div className="Gaming-Hub">Gaming Hub</div>
                 <div className="Landing-pages">Lotto management system</div>
               </div>
@@ -154,7 +154,7 @@ const Electra = () => {
             <div className="col-lg-6  col-sm-12" style={{ marginTop: "50px" }}>
               <a href="/marketing-channels">
                 <img
-                  className="col position-absolute pl-0"
+                  className="col position-absolute pl-0 pr-4"
                   src="/MarketingChannels.png"
                   alt=""
                   style={{ paddingRight: "30px" }}
@@ -179,10 +179,7 @@ const Electra = () => {
               >
                 Branding
               </button>
-              <div
-                className=" role next-projects-images-text "
-                style={{ paddingTop: "30px" }}
-              >
+              <div className=" role next-projects-images-text what-is-next-images-text ">
                 <div className="Gaming-Hub">Marketing Channels</div>
                 <div className="Landing-pages">Landing pages</div>
               </div>

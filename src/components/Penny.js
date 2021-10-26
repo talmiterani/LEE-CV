@@ -9,7 +9,7 @@ const Penny = () => {
         <div className="col justify-content-start align-items-start pl-0 pr-0">
           <h1 className="electraHeaderTop">Penny</h1>
           <h1 className="electraHeaderBottom">App for learning finance</h1>
-          <div className="role row">
+          <div className="role row" style={{ paddingTop: "62px" }}>
             <span className="col col-lg-4">Hosted</span>
             <span className="col">Skills</span>
           </div>
@@ -17,7 +17,7 @@ const Penny = () => {
             <span className="col col-lg-4">Orit Lichtnaier Gil</span>
             <span className="col">UX UI Design, Wireframes, Prototyping</span>
           </div>
-          <div className="role row">
+          <div className="role row" style={{ paddingTop: "62px" }}>
             <span className="col col-lg-4">Duration</span>
             <span className="col">Tools</span>
           </div>
@@ -32,28 +32,32 @@ const Penny = () => {
             alt=""
           />
 
-          <h1 className="project-headline margin-top-section">
+          <h1 className="project-headline col-md-11 pl-0 margin-top-section">
             Penny is an app that teaches children about finances. they earn
             penny’s by completing a range of bite-sized financial literacy
             modules, starting with budgeting but growing more complex as they
             advance through the app.
           </h1>
-          <div className="role row margin-top-section">
-            <span className="col col-lg-6">Challenge</span>
-            <span className="col">Research</span>
+
+          <div className="row">
+            <div className="col-lg-5 margin-top-section">
+              <div className="role">Challenge</div>
+              <div className="User-Experience-Interface">
+                Economic behavior patterns are formed at an early age, so
+                knowledge and awareness will improve their financial management
+                skills later in life.
+              </div>
+            </div>
+            <div className="col-lg-7 margin-top-section">
+              <div className="role">Research</div>
+              <div className="User-Experience-Interface">
+                To provide a framework of knowledge, tools, and skills that will
+                prepare them for successful financial management and wise
+                consumption as they grow up.
+              </div>
+            </div>
           </div>
-          <div className="User-Experience-Interface row">
-            <span className="col col-lg-6">
-              Economic behavior patterns are formed at an early age, so
-              knowledge and awareness will improve their financial management
-              skills later in life.
-            </span>
-            <span className="col">
-              To provide a framework of knowledge, tools, and skills that will
-              prepare them for successful financial management and wise
-              consumption as they grow up.
-            </span>
-          </div>
+
           <div className="Competitive-Analysis margin-top-section">
             Use Case
           </div>
@@ -66,10 +70,6 @@ const Penny = () => {
           <div className="Target-Audience margin-top-section">
             User Interview
           </div>
-          {/* <h1 className="Affiliates-in-verticals">
-            Affiliates in verticals such as finance, casinos and lotteries
-          </h1> */}
-          {/* <div className="Style-Guide margin-top-section">Style Guide</div> */}
           <img
             className="justify-content-center container-img"
             style={{ marginTop: "30px" }}
@@ -77,12 +77,6 @@ const Penny = () => {
             alt=""
           />
 
-          {/* <div className="Target-Audience margin-top-section">Design</div>
-          <h1 className="Affiliates-in-verticals">
-            Through an easy-to-use interface, the platform allows you to manage
-            affiliates, set up rules based on traffic types, track, analyze, and
-            optimize online advertising campaigns.
-          </h1> */}
           <div className="Style-Guide margin-top-section">
             Competitive Analysis
           </div>
@@ -138,6 +132,13 @@ const Penny = () => {
             className="justify-content-center container-img"
             style={{ marginTop: "30px" }}
             src="/pennyGame.png"
+            alt=""
+          />
+          <div className="Style-Guide margin-top-section">Rewards Shop</div>
+          <img
+            className="justify-content-center container-img"
+            style={{ marginTop: "30px" }}
+            src="/pennyRewordsShop.png"
             alt=""
           />
           <div className="Style-Guide margin-top-section">Profile</div>

@@ -9,7 +9,7 @@ const GamingHub = () => {
         <div className="col justify-content-start align-items-start pl-0 pr-0">
           <h1 className="electraHeaderTop">Gaming Hub</h1>
           <h1 className="electraHeaderBottom">Lotto management system</h1>
-          <div className="role row">
+          <div className="role row" style={{ paddingTop: "62px" }}>
             <span className="col col-lg-4">Role</span>
             <span className="col">Skills</span>
           </div>
@@ -17,7 +17,7 @@ const GamingHub = () => {
             <span className="col col-lg-4">User Experience & Interface</span>
             <span className="col">UX UI Design</span>
           </div>
-          <div className="role row">
+          <div className="role row" style={{ paddingTop: "62px" }}>
             <span className="col col-lg-4">Duration</span>
             <span className="col">Tools</span>
           </div>
@@ -35,22 +35,26 @@ const GamingHub = () => {
             Gaming Hub is a management system that connects employees, sales
             teams, and managers by way of a central database.
           </h1>
-          <div className="role row margin-top-section">
-            <span className="col col-lg-6">Challenge</span>
-            <span className="col">Research</span>
+
+          <div className="row">
+            <div className="col-lg-5 margin-top-section">
+              <div className="role">Challenge</div>
+              <div className="User-Experience-Interface">
+                Provide a more intuitive and convenient user interface without
+                too much change in structure.
+              </div>
+            </div>
+            <div className="col-lg-7 margin-top-section">
+              <div className="role">Research</div>
+              <div className="User-Experience-Interface">
+                The first part of my research focused on looking at existing
+                products to see where they have fit in. In later days I looked
+                further afield, even in seemingly unrelated fields, to determine
+                the best solutions for the product.
+              </div>
+            </div>
           </div>
-          <div className="User-Experience-Interface row">
-            <span className="col col-lg-6">
-              Provide a more intuitive and convenient user interface<br></br>
-              without too much change in structure.
-            </span>
-            <span className="col">
-              The first part of my research focused on looking at existing
-              products to see where<br></br> they have fit in. In later days I
-              looked further afield, even in seemingly unrelated fields,
-              <br></br> to determine the best solutions for the product.
-            </span>
-          </div>
+
           <div className="role row margin-top-section">
             <span className="col">Target Audience</span>
           </div>
@@ -152,10 +156,7 @@ const GamingHub = () => {
               >
                 User Interface
               </button>
-              <div
-                className="role next-projects-images-text"
-                style={{ paddingTop: "30px" }}
-              >
+              <div className="role next-projects-images-text what-is-next-images-text">
                 <div className="Gaming-Hub">Electra</div>
                 <div className="Landing-pages">
                   A SaaS-based performance marketing platform
@@ -165,7 +166,7 @@ const GamingHub = () => {
             <div className="col-lg-6  col-sm-12" style={{ marginTop: "50px" }}>
               <a href="/marketing-channels">
                 <img
-                  className="col position-absolute pl-0"
+                  className="col position-absolute pl-0 pr-4"
                   src="/MarketingChannels.png"
                   alt=""
                   style={{ paddingRight: "30px" }}
@@ -190,10 +191,7 @@ const GamingHub = () => {
               >
                 Branding
               </button>
-              <div
-                className=" role next-projects-images-text "
-                style={{ paddingTop: "30px" }}
-              >
+              <div className=" role next-projects-images-text what-is-next-images-text">
                 <div className="Gaming-Hub">Marketing Channels</div>
                 <div className="Landing-pages">Landing pages</div>
               </div>

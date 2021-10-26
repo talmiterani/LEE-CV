@@ -9,7 +9,7 @@ const MarketingChannels = () => {
         <div className="col justify-content-start align-items-start pl-0 pr-0">
           <h1 className="electraHeaderTop">Marketing Channels</h1>
           <h1 className="electraHeaderBottom">Landing pages</h1>
-          <div className="role row">
+          <div className="role row" style={{ paddingTop: "62px" }}>
             <span className="col col-lg-4">Role</span>
             <span className="col">Skills</span>
           </div>
@@ -17,7 +17,7 @@ const MarketingChannels = () => {
             <span className="col col-lg-4">User Experience & Interface</span>
             <span className="col">UX UI Design</span>
           </div>
-          <div className="role row">
+          <div className="role row" style={{ paddingTop: "62px" }}>
             <span className="col col-lg-4">Duration</span>
             <span className="col">Tools</span>
           </div>
@@ -36,23 +36,27 @@ const MarketingChannels = () => {
             We engage with consumers directly through their preferred
             communication channels, such as push notifications, SMS, and email.
           </h1>
-          <div className="role row margin-top-section">
-            <span className="col col-lg-6">Challenge</span>
-            <span className="col">Research</span>
+
+          <div className="row">
+            <div className="col-lg-5 margin-top-section">
+              <div className="role">Challenge</div>
+              <div className="User-Experience-Interface">
+                In order to attract new B2B customers, we need to create landing
+                pages showcasing our products.
+              </div>
+            </div>
+            <div className="col-lg-7 margin-top-section">
+              <div className="role">Research</div>
+              <div className="User-Experience-Interface">
+                My early research focused on exploring different related
+                solutions that are already out there, and how do these products
+                serve their users. In later research I examined far and wide,
+                even in seemingly unrelated fields, to find the best solutions
+                for the product.
+              </div>
+            </div>
           </div>
-          <div className="User-Experience-Interface row">
-            <span className="col col-lg-6">
-              In order to attract new B2B customers, we need to create landing
-              pages showcasing our products.
-            </span>
-            <span className="col">
-              My early research focused on exploring different related solutions
-              that are already out there, and how do these products serve their
-              users. In later research I examined far and wide, even in
-              seemingly unrelated fields, to find the best solutions for the
-              product.
-            </span>
-          </div>
+
           <div className="role row margin-top-section">
             <span className="col">Design</span>
           </div>
@@ -122,10 +126,7 @@ const MarketingChannels = () => {
                 User Interface
               </button>
 
-              <div
-                className="role next-projects-images-text"
-                style={{ paddingTop: "30px" }}
-              >
+              <div className="role next-projects-images-text what-is-next-images-text">
                 <div className="Gaming-Hub">Gaming Hub</div>
                 <div className="Landing-pages">Lotto management system</div>
               </div>
@@ -133,7 +134,7 @@ const MarketingChannels = () => {
             <div className="col-lg-6  col-sm-12" style={{ marginTop: "50px" }}>
               <a href="/electra-project">
                 <img
-                  className="col position-absolute pl-0"
+                  className="col position-absolute pl-0 pr-4"
                   src="/Electra.png"
                   alt=""
                   style={{ paddingRight: "30px" }}
@@ -152,10 +153,7 @@ const MarketingChannels = () => {
               >
                 User Interface
               </button>
-              <div
-                className=" role next-projects-images-text "
-                style={{ paddingTop: "30px" }}
-              >
+              <div className=" role next-projects-images-text what-is-next-images-text">
                 <div className="Gaming-Hub">Electra</div>
                 <div className="Landing-pages">
                   A SaaS-based performance marketing platform
