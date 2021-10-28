@@ -57,7 +57,16 @@ nav {
 .padding-top-for-everone-else {
   padding-top: 0px;
 }
+.dfferent-padding {
+  left: 310px;
+}
 @media (max-width: 880px) {
+  .display-none-on-mobile {
+    display: none;
+  }
+  .dfferent-padding {
+    left: 221px;
+  }
   .navlinks {
     display: none;
   }

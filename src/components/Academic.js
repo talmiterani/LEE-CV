@@ -128,17 +128,16 @@ export default function Academic() {
               Marketing
             </button>
             <button
-              className="branding position-absolute"
+              className="branding position-absolute display-none-on-mobile"
               style={{ cursor: "default", left: "221px" }}
             >
               Branding
             </button>
 
             <button
-              className="branding position-absolute"
+              className="branding position-absolute dfferent-padding"
               style={{
                 cursor: "default",
-                left: "310px",
                 background: "#ff5ee5",
               }}
             >

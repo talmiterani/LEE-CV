@@ -88,6 +88,21 @@
   background: #2d34db;
   transition: background 2s;
 }
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: black;
+}
+.carousel-control-prev-icon {
+  display: none;
+}
+.carousel-control-next-icon {
+  display: none;
+}
+.carousel-indicators .active {
+  background-color: #0075ff;
+}
 @media (max-width: 990px) {
   .headlineAcademic {
     font-family: Lora;
