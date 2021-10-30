@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import "./navigation.css";
 import SideMenu from "./sideMenu/SideMenu";
 import { Link } from "react-router-dom";

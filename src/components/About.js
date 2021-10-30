@@ -5,8 +5,8 @@ export default function About() {
   return (
     <div className="container-fluid body-section">
       <div className="row">
-        <div className="col-md-7  offset-md-1 p-0">
-          <p className="intreductionP">
+        <div className="col-md-7 offset-md-1 p-0">
+          <span className="intreductionP">
             <div>👋 Hello, my name is Lee.</div>
             <div style={{ paddingTop: "44px" }}>
               I am a Product Designer based in Ra'anana,
@@ -27,7 +27,7 @@ export default function About() {
               Now I'm looking for new opportunities.
             </div>
             <div style={{ paddingTop: "44px" }}>I'd ❤️ to hear from you.</div>
-          </p>
+          </span>
         </div>
         <div className="col-md-2 offset-md-1 paddingTopMobile">
           <span className="titleInAboutPage">Experience</span>

@@ -1,4 +1,3 @@
-  
 import React, { Component } from "react";
 
 class GoTop extends Component {
@@ -34,17 +33,20 @@ class GoTop extends Component {
     if (this.state.thePosition) {
       return (
         <>
-          <div className="move-up" style={{
-                        position: 'fixed',
-                        marginRight: '80px',
-                        cursor: 'pointer',
-                        bottom:' 30px',
-                        right: "0",
-                        zIndex: '1',
-                        transition:' all .1s'
-  }}>
+          <div
+            className="move-up"
+            style={{
+              position: "fixed",
+              marginRight: "80px",
+              cursor: "pointer",
+              bottom: " 30px",
+              right: "0",
+              zIndex: "1",
+              transition: " all .1s",
+            }}
+          >
             <span>
-              <img src="/arrow_up.svg" onClick={this.scrollToTop}></img>
+              <img src="/arrow_up.svg" alt="" onClick={this.scrollToTop}></img>
             </span>
           </div>
         </>

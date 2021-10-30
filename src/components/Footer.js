@@ -58,6 +58,7 @@ const Footer = () => {
             className="contactFooterWork "
             href="https://www.linkedin.com/in/lee-miterani/"
             target="_blank"
+            rel="noreferrer"
           >
             Linkedin
           </a>
@@ -67,6 +68,7 @@ const Footer = () => {
             className="contactFooterWork "
             href="https://www.instagram.com/lee.miterani/"
             target="_blank"
+            rel="noreferrer"
           >
             Instagram
           </a>
@@ -76,6 +78,7 @@ const Footer = () => {
             className="contactFooterWork "
             href="https://www.facebook.com/lee.miterani"
             target="_blank"
+            rel="noreferrer"
           >
             Facebook
           </a>

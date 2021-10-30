@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+// import React, { useEffect, useState } from "react";
 import "./work.css";
 import GoTop from "./ScrollToTop";
 
 export default function Work() {
-  const [reload, setReload] = useState(false);
+  // const [reload, setReload] = useState(false);
 
   // const ReloadEnter = () => {
   //   return (
