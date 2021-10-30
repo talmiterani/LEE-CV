@@ -5,23 +5,23 @@ import GoTop from "./ScrollToTop";
 export default function Work() {
   const [reload, setReload] = useState(false);
 
-  const ReloadEnter = () => {
-    return (
-      <section className="animation-box d-flex justify-content-center">
-        <div
-          className="first-text"
-          style={{
-            fontWeight: "500",
-            fontFamily: "Roboto",
-            color: "white",
-            fontSize: "24px",
-          }}
-        >
-          Lee Miterani
-        </div>
-      </section>
-    );
-  };
+  // const ReloadEnter = () => {
+  //   return (
+  //     <section className="animation-box d-flex justify-content-center">
+  //       <div
+  //         className="first-text"
+  //         style={{
+  //           fontWeight: "500",
+  //           fontFamily: "Roboto",
+  //           color: "white",
+  //           fontSize: "24px",
+  //         }}
+  //       >
+  //         Lee Miterani
+  //       </div>
+  //     </section>
+  //   );
+  // };
 
   const NotReloadEnter = () => {
     return (
@@ -208,12 +208,12 @@ export default function Work() {
       </>
     );
   };
-  useEffect(() => {
-    if (window.performance.memory.usedJSHeapSize > 35000000) {
-      console.log(window.performance.memory.usedJSHeapSize);
-      setReload(true);
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (window.performance.memory.usedJSHeapSize > 35000000) {
+  //     console.log(window.performance.memory.usedJSHeapSize);
+  //     setReload(true);
+  //   }
+  // }, []);
   return (
     <div>
       <NotReloadEnter />

@@ -35,7 +35,7 @@ class App extends Component {
             <Route exact path="/about" component={About} />
             <Route exact path="/contact" component={Contact} />
             <PrivateRoute exact path="/electra-project" component={Electra} />
-            <PrivateRoute exact path="/Penny-project" component={Penny} />
+            <Route exact path="/Penny-project" component={Penny} />
             <PrivateRoute
               exact
               path="/marketing-channels"
