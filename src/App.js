@@ -34,15 +34,15 @@ class App extends Component {
             <Route exact path="/academic" component={Academic} />
             <Route exact path="/about" component={About} />
             <Route exact path="/contact" component={Contact} />
-            <PrivateRoute exact path="/electra-project" component={Electra} />
+            <Route exact path="/electra-project" component={Electra} />
             <Route exact path="/Penny-project" component={Penny} />
-            <PrivateRoute
+            <Route
               exact
               path="/marketing-channels"
               component={MarketingChannels}
             />
-            <PrivateRoute exact path="/gaming-hub" component={GamingHub} />
-            <PrivateRoute exact path="/mobile" component={Mobile} />
+            <Route exact path="/gaming-hub" component={GamingHub} />
+            <Route exact path="/mobile" component={Mobile} />
             <Route component={Default} />
           </Switch>
           <Footer />
