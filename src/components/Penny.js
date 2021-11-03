@@ -58,10 +58,7 @@ const Penny = () => {
             </div>
           </div>
 
-          <div
-            className="Competitive-Analysis margin-top-section"
-            style={{ marginTop: "30px" }}
-          >
+          <div className="Competitive-Analysis margin-top-section">
             Use Case
           </div>
           <img
